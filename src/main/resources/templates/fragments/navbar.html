@@ -1,0 +1,59 @@
+<nav class="navbar" role="navigation" aria-label="main navigation" th:fragment="navbar(isLoggedIn)">
+    <div class="navbar-brand">
+      <p class="navbar-item title m-0" style="font-family: 'Roboto Mono', monospace">
+        Fresco
+      </p>
+  
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="/">
+          Home
+        </a>
+        <a class="navbar-item" href="/vegetables">
+            Vegetables
+        </a>
+        <a class="navbar-item" href="/fruits">
+            Fruits
+        </a>
+        <a class="navbar-item" href="/pantry">
+            Pantry
+        </a>
+        <th:block th:switch="${isLoggedIn}">
+            <a th:case="true" class="navbar-item" href="/addproduct">
+                Add Product
+            </a>
+        </th:block>
+        <a class="navbar-item" href="/cart">
+            Cart
+        </a>
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <th:block th:switch="${isLoggedIn}">
+                <th:block th:case="false">
+                    <a class="button is-primary" href="/register">
+                        <strong>Sign up</strong>
+                      </a>
+                    <a class="button is-light" href="/signin">
+                        Log in
+                    </a>
+                </th:block>
+                <a th:case="true" class="button is-light" href="/signout">
+                    Log out
+                </a>
+            </th:block>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>

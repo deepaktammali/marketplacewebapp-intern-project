@@ -1,0 +1,12 @@
+body{
+    margin:0 3rem;
+    box-sizing:border-box;
+}
+
+.navbar-item:hover{
+    cursor:pointer;
+}
+
+a .navbar-item:hover{
+    background:#1eae98;
+}
