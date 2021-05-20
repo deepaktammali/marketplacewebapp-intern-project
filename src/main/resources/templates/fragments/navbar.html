@@ -41,15 +41,15 @@
           <div class="buttons">
             <th:block th:switch="${isLoggedIn}">
                 <th:block th:case="false">
-                    <a class="button is-primary" href="/register">
-                        <strong>Sign up</strong>
+                    <a class="button is-light signup-button" href="/register">
+                        Register
                       </a>
-                    <a class="button is-light" href="/signin">
-                        Log in
+                    <a class="button signin-button" href="/signin">
+                        Login
                     </a>
                 </th:block>
                 <a th:case="true" class="button is-light" href="/signout">
-                    Log out
+                    Logout
                 </a>
             </th:block>
           </div>
@@ -57,3 +57,4 @@
       </div>
     </div>
   </nav>
+

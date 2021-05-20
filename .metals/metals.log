@@ -1,0 +1,1585 @@
+[0m2021.05.20 08:39:26 INFO  Started: Metals version 0.10.3 in workspace 'C:\Users\VC\Desktop\marketplace' for client Visual Studio Code 1.56.2.[0m
+[0m2021.05.20 08:39:31 INFO  time: initialize in 4.21s[0m
+[0m2021.05.20 08:39:31 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.20 08:46:22 INFO  running 'C:\Program Files\Java\jdk1.8.0_291\bin\java -Dfile.encoding=UTF-8 -Dmaven.multiModuleProjectDirectory=C:\Users\VC\Desktop\marketplace -Dmaven.home=C:\Users\VC\AppData\Local\Temp\metals4379724045468262808 -jar C:\Users\VC\AppData\Local\Temp\metals4379724045468262808\maven-wrapper.jar ch.epfl.scala:maven-bloop_2.12:1.4.8-19-4d9f966b:bloopInstall -DdownloadSources=true'[0m
+[0m2021.05.20 08:46:25 INFO  [INFO] Scanning for projects...[0m
+[0m2021.05.20 08:46:25 INFO  [WARNING] [0m
+[0m2021.05.20 08:46:25 INFO  [WARNING] Some problems were encountered while building the effective model for com.deepak:marketplace:jar:0.0.1-SNAPSHOT[0m
+[0m2021.05.20 08:46:26 INFO  [WARNING] 'dependencies.dependency.scope' for org.projectlombok:lombok:jar must be one of [provided, compile, runtime, test, system] but is 'annotationProcessor'. @ line 46, column 11[0m
+[0m2021.05.20 08:46:26 INFO  [WARNING] [0m
+[0m2021.05.20 08:46:26 INFO  [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.[0m
+[0m2021.05.20 08:46:26 INFO  [WARNING] [0m
+[0m2021.05.20 08:46:26 INFO  [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.[0m
+[0m2021.05.20 08:46:26 INFO  [WARNING] [0m
+[0m2021.05.20 08:46:26 INFO  [INFO] [0m
+[0m2021.05.20 08:46:26 INFO  [INFO] -----------------------< com.deepak:marketplace >-----------------------[0m
+[0m2021.05.20 08:46:26 INFO  [INFO] Building marketplace 0.0.1-SNAPSHOT[0m
+[0m2021.05.20 08:46:26 INFO  [INFO] --------------------------------[ jar ]---------------------------------[0m
+[0m2021.05.20 08:46:27 INFO  [INFO] [0m
+[0m2021.05.20 08:46:27 INFO  [INFO] --- maven-bloop_2.12:1.4.8-19-4d9f966b:bloopInstall (default-cli) @ marketplace ---[0m
+[0m2021.05.20 08:46:29 INFO  [INFO] Using empty launcher: no run setup for marketplace.[0m
+[0m2021.05.20 08:46:32 INFO  [INFO] Scanning for projects...[0m
+[0m2021.05.20 08:46:32 INFO  [WARNING] [0m
+[0m2021.05.20 08:46:32 INFO  [WARNING] Some problems were encountered while building the effective model for com.deepak:marketplace:jar:0.0.1-SNAPSHOT[0m
+[0m2021.05.20 08:46:33 INFO  [WARNING] 'dependencies.dependency.scope' for org.projectlombok:lombok:jar must be one of [provided, compile, runtime, test, system] but is 'annotationProcessor'. @ line 46, column 11[0m
+[0m2021.05.20 08:46:33 INFO  [WARNING] [0m
+[0m2021.05.20 08:46:33 INFO  [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.[0m
+[0m2021.05.20 08:46:33 INFO  [WARNING] [0m
+[0m2021.05.20 08:46:33 INFO  [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.[0m
+[0m2021.05.20 08:46:33 INFO  [WARNING] [0m
+[0m2021.05.20 08:46:34 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.1.0/maven-clean-plugin-3.1.0.pom[0m
+[0m2021.05.20 08:46:36 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.1.0/maven-clean-plugin-3.1.0.pom (5.2 kB at 3.3 kB/s)[0m
+[0m2021.05.20 08:46:36 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/31/maven-plugins-31.pom[0m
+[0m2021.05.20 08:46:36 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/31/maven-plugins-31.pom (10 kB at 30 kB/s)[0m
+[0m2021.05.20 08:46:36 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.pom[0m
+[0m2021.05.20 08:46:36 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.pom (6.4 kB at 19 kB/s)[0m
+[0m2021.05.20 08:46:36 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom[0m
+[0m2021.05.20 08:46:37 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom (9.6 kB at 21 kB/s)[0m
+[0m2021.05.20 08:46:37 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/24/maven-parent-24.pom[0m
+[0m2021.05.20 08:46:37 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/24/maven-parent-24.pom (37 kB at 91 kB/s)[0m
+[0m2021.05.20 08:46:37 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/14/apache-14.pom[0m
+[0m2021.05.20 08:46:37 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/14/apache-14.pom (15 kB at 44 kB/s)[0m
+[0m2021.05.20 08:46:37 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.pom[0m
+[0m2021.05.20 08:46:38 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.pom (7.1 kB at 22 kB/s)[0m
+[0m2021.05.20 08:46:38 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.2.0/build-helper-maven-plugin-3.2.0.pom[0m
+[0m2021.05.20 08:46:38 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.2.0/build-helper-maven-plugin-3.2.0.pom (7.3 kB at 23 kB/s)[0m
+[0m2021.05.20 08:46:38 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.2.0/build-helper-maven-plugin-3.2.0.jar[0m
+[0m2021.05.20 08:46:38 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.2.0/build-helper-maven-plugin-3.2.0.jar (69 kB at 144 kB/s)[0m
+[0m2021.05.20 08:46:38 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/7.1.1/flyway-maven-plugin-7.1.1.pom[0m
+[0m2021.05.20 08:46:40 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/7.1.1/flyway-maven-plugin-7.1.1.pom (4.5 kB at 14 kB/s)[0m
+[0m2021.05.20 08:46:40 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-parent/7.1.1/flyway-parent-7.1.1.pom[0m
+[0m2021.05.20 08:46:40 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-parent/7.1.1/flyway-parent-7.1.1.pom (30 kB at 88 kB/s)[0m
+[0m2021.05.20 08:46:40 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/7.1.1/flyway-maven-plugin-7.1.1.jar[0m
+[0m2021.05.20 08:46:40 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/7.1.1/flyway-maven-plugin-7.1.1.jar (115 kB at 242 kB/s)[0m
+[0m2021.05.20 08:46:40 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/pl/project13/maven/git-commit-id-plugin/3.0.1/git-commit-id-plugin-3.0.1.pom[0m
+[0m2021.05.20 08:46:41 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/pl/project13/maven/git-commit-id-plugin/3.0.1/git-commit-id-plugin-3.0.1.pom (17 kB at 34 kB/s)[0m
+[0m2021.05.20 08:46:41 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/pl/project13/maven/git-commit-id-plugin/3.0.1/git-commit-id-plugin-3.0.1.jar[0m
+[0m2021.05.20 08:46:41 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/pl/project13/maven/git-commit-id-plugin/3.0.1/git-commit-id-plugin-3.0.1.jar (120 kB at 217 kB/s)[0m
+[0m2021.05.20 08:46:41 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon-maven-plugin/1.2.10/johnzon-maven-plugin-1.2.10.pom[0m
+[0m2021.05.20 08:46:41 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon-maven-plugin/1.2.10/johnzon-maven-plugin-1.2.10.pom (4.0 kB at 12 kB/s)[0m
+[0m2021.05.20 08:46:41 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon/1.2.10/johnzon-1.2.10.pom[0m
+[0m2021.05.20 08:46:42 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon/1.2.10/johnzon-1.2.10.pom (26 kB at 81 kB/s)[0m
+[0m2021.05.20 08:46:42 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon-maven-plugin/1.2.10/johnzon-maven-plugin-1.2.10.jar[0m
+[0m2021.05.20 08:46:42 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon-maven-plugin/1.2.10/johnzon-maven-plugin-1.2.10.jar (30 kB at 94 kB/s)[0m
+[0m2021.05.20 08:46:42 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.14.8/jooq-codegen-maven-3.14.8.pom[0m
+[0m2021.05.20 08:46:42 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.14.8/jooq-codegen-maven-3.14.8.pom (3.4 kB at 11 kB/s)[0m
+[0m2021.05.20 08:46:42 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.14.8/jooq-parent-3.14.8.pom[0m
+[0m2021.05.20 08:46:45 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.14.8/jooq-parent-3.14.8.pom (26 kB at 17 kB/s)[0m
+[0m2021.05.20 08:46:45 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.14.8/jooq-codegen-maven-3.14.8.jar[0m
+[0m2021.05.20 08:46:45 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.14.8/jooq-codegen-maven-3.14.8.jar (17 kB at 42 kB/s)[0m
+[0m2021.05.20 08:46:45 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.4.32/kotlin-maven-plugin-1.4.32.pom[0m
+[0m2021.05.20 08:46:45 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.4.32/kotlin-maven-plugin-1.4.32.pom (5.9 kB at 18 kB/s)[0m
+[0m2021.05.20 08:46:45 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-project/1.4.32/kotlin-project-1.4.32.pom[0m
+[0m2021.05.20 08:46:46 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-project/1.4.32/kotlin-project-1.4.32.pom (10 kB at 32 kB/s)[0m
+[0m2021.05.20 08:46:46 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.4.32/kotlin-maven-plugin-1.4.32.jar[0m
+[0m2021.05.20 08:46:46 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.4.32/kotlin-maven-plugin-1.4.32.jar (80 kB at 228 kB/s)[0m
+[0m2021.05.20 08:46:46 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/3.10.3/liquibase-maven-plugin-3.10.3.pom[0m
+[0m2021.05.20 08:46:46 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/3.10.3/liquibase-maven-plugin-3.10.3.pom (3.2 kB at 9.8 kB/s)[0m
+[0m2021.05.20 08:46:46 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/3.10.3/liquibase-maven-plugin-3.10.3.jar[0m
+[0m2021.05.20 08:46:47 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/3.10.3/liquibase-maven-plugin-3.10.3.jar (92 kB at 262 kB/s)[0m
+[0m2021.05.20 08:46:47 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.pom[0m
+[0m2021.05.20 08:46:47 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.pom (3.3 kB at 10.0 kB/s)[0m
+[0m2021.05.20 08:46:47 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/27/maven-plugins-27.pom[0m
+[0m2021.05.20 08:46:47 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/27/maven-plugins-27.pom (11 kB at 35 kB/s)[0m
+[0m2021.05.20 08:46:47 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.jar[0m
+[0m2021.05.20 08:46:48 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.jar (36 kB at 104 kB/s)[0m
+[0m2021.05.20 08:46:48 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.3.0/maven-assembly-plugin-3.3.0.pom[0m
+[0m2021.05.20 08:46:48 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.3.0/maven-assembly-plugin-3.3.0.pom (16 kB at 48 kB/s)[0m
+[0m2021.05.20 08:46:48 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.3.0/maven-assembly-plugin-3.3.0.jar[0m
+[0m2021.05.20 08:46:48 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.3.0/maven-assembly-plugin-3.3.0.jar (242 kB at 468 kB/s)[0m
+[0m2021.05.20 08:46:48 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2.pom[0m
+[0m2021.05.20 08:46:49 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2.pom (16 kB at 47 kB/s)[0m
+[0m2021.05.20 08:46:49 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2.jar[0m
+[0m2021.05.20 08:46:49 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2.jar (172 kB at 328 kB/s)[0m
+[0m2021.05.20 08:46:49 INFO  [INFO] [0m
+[0m2021.05.20 08:46:49 INFO  [INFO] -----------------------< com.deepak:marketplace >-----------------------[0m
+[0m2021.05.20 08:46:49 INFO  [INFO] Building marketplace 0.0.1-SNAPSHOT[0m
+[0m2021.05.20 08:46:49 INFO  [INFO] --------------------------------[ jar ]---------------------------------[0m
+[0m2021.05.20 08:46:50 INFO  [INFO] [0m
+[0m2021.05.20 08:46:50 INFO  [INFO] --- maven-dependency-plugin:3.1.2:sources (default-cli) @ marketplace ---[0m
+[0m2021.05.20 08:46:50 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/3.0.0/maven-reporting-impl-3.0.0.pom[0m
+[0m2021.05.20 08:46:50 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/3.0.0/maven-reporting-impl-3.0.0.pom (7.6 kB at 23 kB/s)[0m
+[0m2021.05.20 08:46:50 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.0/maven-shared-utils-3.2.0.pom[0m
+[0m2021.05.20 08:46:51 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.0/maven-shared-utils-3.2.0.pom (4.9 kB at 15 kB/s)[0m
+[0m2021.05.20 08:46:51 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.7/doxia-sink-api-1.7.pom[0m
+[0m2021.05.20 08:46:51 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.7/doxia-sink-api-1.7.pom (1.5 kB at 4.5 kB/s)[0m
+[0m2021.05.20 08:46:51 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.7/doxia-1.7.pom[0m
+[0m2021.05.20 08:46:51 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.7/doxia-1.7.pom (15 kB at 32 kB/s)[0m
+[0m2021.05.20 08:46:51 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.7/doxia-logging-api-1.7.pom[0m
+[0m2021.05.20 08:46:53 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.7/doxia-logging-api-1.7.pom (1.5 kB at 4.6 kB/s)[0m
+[0m2021.05.20 08:46:53 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.7.4/doxia-decoration-model-1.7.4.pom[0m
+[0m2021.05.20 08:46:53 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.7.4/doxia-decoration-model-1.7.4.pom (3.4 kB at 11 kB/s)[0m
+[0m2021.05.20 08:46:53 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.7.4/doxia-sitetools-1.7.4.pom[0m
+[0m2021.05.20 08:46:53 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.7.4/doxia-sitetools-1.7.4.pom (14 kB at 43 kB/s)[0m
+[0m2021.05.20 08:46:53 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.7/doxia-core-1.7.pom[0m
+[0m2021.05.20 08:46:54 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.7/doxia-core-1.7.pom (4.1 kB at 12 kB/s)[0m
+[0m2021.05.20 08:46:54 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/xmlunit/xmlunit/1.5/xmlunit-1.5.pom[0m
+[0m2021.05.20 08:46:54 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/xmlunit/xmlunit/1.5/xmlunit-1.5.pom (3.0 kB at 9.5 kB/s)[0m
+[0m2021.05.20 08:46:54 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.7.4/doxia-site-renderer-1.7.4.pom[0m
+[0m2021.05.20 08:46:54 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.7.4/doxia-site-renderer-1.7.4.pom (6.7 kB at 16 kB/s)[0m
+[0m2021.05.20 08:46:54 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.7.4/doxia-skin-model-1.7.4.pom[0m
+[0m2021.05.20 08:46:55 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.7.4/doxia-skin-model-1.7.4.pom (3.0 kB at 9.4 kB/s)[0m
+[0m2021.05.20 08:46:55 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.7/doxia-module-xhtml-1.7.pom[0m
+[0m2021.05.20 08:46:55 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.7/doxia-module-xhtml-1.7.pom (1.6 kB at 3.7 kB/s)[0m
+[0m2021.05.20 08:46:55 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.7/doxia-modules-1.7.pom[0m
+[0m2021.05.20 08:46:55 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.7/doxia-modules-1.7.pom (2.6 kB at 8.1 kB/s)[0m
+[0m2021.05.20 08:46:56 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.9/doxia-sink-api-1.9.pom[0m
+[0m2021.05.20 08:46:56 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.9/doxia-sink-api-1.9.pom (1.6 kB at 3.0 kB/s)[0m
+[0m2021.05.20 08:46:56 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.9/doxia-1.9.pom[0m
+[0m2021.05.20 08:46:57 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.9/doxia-1.9.pom (19 kB at 21 kB/s)[0m
+[0m2021.05.20 08:46:57 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.9/doxia-logging-api-1.9.pom[0m
+[0m2021.05.20 08:46:57 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.9/doxia-logging-api-1.9.pom (1.6 kB at 1.8 kB/s)[0m
+[0m2021.05.20 08:46:57 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.7.1/plexus-container-default-1.7.1.pom[0m
+[0m2021.05.20 08:46:59 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.7.1/plexus-container-default-1.7.1.pom (2.8 kB at 4.6 kB/s)[0m
+[0m2021.05.20 08:46:59 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.1/plexus-classworlds-2.5.1.pom[0m
+[0m2021.05.20 08:46:59 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.1/plexus-classworlds-2.5.1.pom (5.0 kB at 16 kB/s)[0m
+[0m2021.05.20 08:46:59 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.pom[0m
+[0m2021.05.20 08:46:59 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.pom (5.1 kB at 16 kB/s)[0m
+[0m2021.05.20 08:46:59 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean/3.7/xbean-3.7.pom[0m
+[0m2021.05.20 08:47:00 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean/3.7/xbean-3.7.pom (15 kB at 46 kB/s)[0m
+[0m2021.05.20 08:47:00 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis-java5-flava/2.0/genesis-java5-flava-2.0.pom[0m
+[0m2021.05.20 08:47:00 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis-java5-flava/2.0/genesis-java5-flava-2.0.pom (5.5 kB at 17 kB/s)[0m
+[0m2021.05.20 08:47:00 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis-default-flava/2.0/genesis-default-flava-2.0.pom[0m
+[0m2021.05.20 08:47:00 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis-default-flava/2.0/genesis-default-flava-2.0.pom (18 kB at 53 kB/s)[0m
+[0m2021.05.20 08:47:00 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis/2.0/genesis-2.0.pom[0m
+[0m2021.05.20 08:47:01 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis/2.0/genesis-2.0.pom (18 kB at 56 kB/s)[0m
+[0m2021.05.20 08:47:01 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.9/doxia-core-1.9.pom[0m
+[0m2021.05.20 08:47:01 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.9/doxia-core-1.9.pom (4.4 kB at 14 kB/s)[0m
+[0m2021.05.20 08:47:01 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom[0m
+[0m2021.05.20 08:47:01 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom (23 kB at 72 kB/s)[0m
+[0m2021.05.20 08:47:01 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.8/httpclient-4.5.8.pom[0m
+[0m2021.05.20 08:47:02 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.8/httpclient-4.5.8.pom (6.6 kB at 20 kB/s)[0m
+[0m2021.05.20 08:47:02 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.8/httpcomponents-client-4.5.8.pom[0m
+[0m2021.05.20 08:47:02 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.8/httpcomponents-client-4.5.8.pom (16 kB at 50 kB/s)[0m
+[0m2021.05.20 08:47:02 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.pom[0m
+[0m2021.05.20 08:47:02 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.pom (5.2 kB at 16 kB/s)[0m
+[0m2021.05.20 08:47:02 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.11/httpcomponents-core-4.4.11.pom[0m
+[0m2021.05.20 08:47:03 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.11/httpcomponents-core-4.4.11.pom (13 kB at 32 kB/s)[0m
+[0m2021.05.20 08:47:03 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.9/doxia-site-renderer-1.9.pom[0m
+[0m2021.05.20 08:47:03 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.9/doxia-site-renderer-1.9.pom (6.7 kB at 16 kB/s)[0m
+[0m2021.05.20 08:47:03 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.9/doxia-sitetools-1.9.pom[0m
+[0m2021.05.20 08:47:04 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.9/doxia-sitetools-1.9.pom (16 kB at 21 kB/s)[0m
+[0m2021.05.20 08:47:04 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.9/doxia-decoration-model-1.9.pom[0m
+[0m2021.05.20 08:47:04 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.9/doxia-decoration-model-1.9.pom (3.4 kB at 11 kB/s)[0m
+[0m2021.05.20 08:47:04 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.9/doxia-skin-model-1.9.pom[0m
+[0m2021.05.20 08:47:04 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.9/doxia-skin-model-1.9.pom (3.0 kB at 9.6 kB/s)[0m
+[0m2021.05.20 08:47:04 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.9/doxia-module-xhtml-1.9.pom[0m
+[0m2021.05.20 08:47:05 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.9/doxia-module-xhtml-1.9.pom (2.0 kB at 4.8 kB/s)[0m
+[0m2021.05.20 08:47:05 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.9/doxia-modules-1.9.pom[0m
+[0m2021.05.20 08:47:05 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.9/doxia-modules-1.9.pom (2.7 kB at 8.7 kB/s)[0m
+[0m2021.05.20 08:47:05 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml5/1.9/doxia-module-xhtml5-1.9.pom[0m
+[0m2021.05.20 08:47:05 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml5/1.9/doxia-module-xhtml5-1.9.pom (2.0 kB at 5.9 kB/s)[0m
+[0m2021.05.20 08:47:05 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.pom[0m
+[0m2021.05.20 08:47:05 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.pom (2.1 kB at 6.5 kB/s)[0m
+[0m2021.05.20 08:47:06 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.pom[0m
+[0m2021.05.20 08:47:06 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.pom (4.4 kB at 14 kB/s)[0m
+[0m2021.05.20 08:47:06 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.1/plexus-6.1.pom[0m
+[0m2021.05.20 08:47:06 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.1/plexus-6.1.pom (24 kB at 56 kB/s)[0m
+[0m2021.05.20 08:47:06 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.pom[0m
+[0m2021.05.20 08:47:08 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.pom (18 kB at 56 kB/s)[0m
+[0m2021.05.20 08:47:08 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.11.1/maven-dependency-analyzer-1.11.1.pom[0m
+[0m2021.05.20 08:47:08 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.11.1/maven-dependency-analyzer-1.11.1.pom (6.7 kB at 21 kB/s)[0m
+[0m2021.05.20 08:47:08 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.3.1/asm-7.3.1.pom[0m
+[0m2021.05.20 08:47:08 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.3.1/asm-7.3.1.pom (2.9 kB at 9.3 kB/s)[0m
+[0m2021.05.20 08:47:08 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.pom[0m
+[0m2021.05.20 08:47:09 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.pom (7.5 kB at 23 kB/s)[0m
+[0m2021.05.20 08:47:09 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.0/maven-common-artifact-filters-3.1.0.pom[0m
+[0m2021.05.20 08:47:09 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.0/maven-common-artifact-filters-3.1.0.pom (5.3 kB at 17 kB/s)[0m
+[0m2021.05.20 08:47:09 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.pom[0m
+[0m2021.05.20 08:47:09 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.pom (11 kB at 35 kB/s)[0m
+[0m2021.05.20 08:47:09 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/3.0.0/maven-reporting-impl-3.0.0.jar[0m
+[0m2021.05.20 08:47:09 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.7.4/doxia-decoration-model-1.7.4.jar[0m
+[0m2021.05.20 08:47:09 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.9/doxia-logging-api-1.9.jar[0m
+[0m2021.05.20 08:47:09 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.9/doxia-sink-api-1.9.jar[0m
+[0m2021.05.20 08:47:09 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.9/doxia-core-1.9.jar[0m
+[0m2021.05.20 08:47:10 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.7.4/doxia-decoration-model-1.7.4.jar (61 kB at 157 kB/s)[0m
+[0m2021.05.20 08:47:10 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.7.1/plexus-container-default-1.7.1.jar[0m
+[0m2021.05.20 08:47:10 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.9/doxia-logging-api-1.9.jar (12 kB at 17 kB/s)[0m
+[0m2021.05.20 08:47:10 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar[0m
+[0m2021.05.20 08:47:10 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.9/doxia-sink-api-1.9.jar (12 kB at 15 kB/s)[0m
+[0m2021.05.20 08:47:10 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar[0m
+[0m2021.05.20 08:47:10 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/3.0.0/maven-reporting-impl-3.0.0.jar (18 kB at 22 kB/s)[0m
+[0m2021.05.20 08:47:10 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.8/httpclient-4.5.8.jar[0m
+[0m2021.05.20 08:47:10 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.7.1/plexus-container-default-1.7.1.jar (231 kB at 266 kB/s)[0m
+[0m2021.05.20 08:47:10 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar[0m
+[0m2021.05.20 08:47:10 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.9/doxia-core-1.9.jar (219 kB at 200 kB/s)[0m
+[0m2021.05.20 08:47:10 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.9/doxia-site-renderer-1.9.jar[0m
+[0m2021.05.20 08:47:10 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar (148 kB at 110 kB/s)[0m
+[0m2021.05.20 08:47:10 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.9/doxia-skin-model-1.9.jar[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.9/doxia-site-renderer-1.9.jar (66 kB at 43 kB/s)[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.9/doxia-module-xhtml-1.9.jar[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar (327 kB at 201 kB/s)[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml5/1.9/doxia-module-xhtml5-1.9.jar[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.9/doxia-skin-model-1.9.jar (17 kB at 9.6 kB/s)[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.jar[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar (480 kB at 266 kB/s)[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.jar[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml5/1.9/doxia-module-xhtml5-1.9.jar (18 kB at 9.2 kB/s)[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.jar (12 kB at 5.8 kB/s)[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.11.1/maven-dependency-analyzer-1.11.1.jar[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.9/doxia-module-xhtml-1.9.jar (18 kB at 8.5 kB/s)[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.8/httpclient-4.5.8.jar (772 kB at 367 kB/s)[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.jar[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.jar (194 kB at 89 kB/s)[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.0/maven-common-artifact-filters-3.1.0.jar[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.11.1/maven-dependency-analyzer-1.11.1.jar (35 kB at 15 kB/s)[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar (122 kB at 50 kB/s)[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.jar (37 kB at 15 kB/s)[0m
+[0m2021.05.20 08:47:11 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.0/maven-common-artifact-filters-3.1.0.jar (61 kB at 24 kB/s)[0m
+[0m2021.05.20 08:47:12 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar (128 kB at 46 kB/s)[0m
+[0m2021.05.20 08:47:12 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar (632 kB at 219 kB/s)[0m
+[0m2021.05.20 08:47:12 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/2.4.5/spring-boot-starter-data-jpa-2.4.5-sources.jar[0m
+[0m2021.05.20 08:47:14 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/2.4.5/spring-boot-starter-data-jpa-2.4.5-sources.jar (4.7 kB at 14 kB/s)[0m
+[0m2021.05.20 08:47:14 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/2.4.5/spring-boot-starter-aop-2.4.5-sources.jar[0m
+[0m2021.05.20 08:47:14 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/2.4.5/spring-boot-starter-aop-2.4.5-sources.jar (4.7 kB at 14 kB/s)[0m
+[0m2021.05.20 08:47:14 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6-sources.jar[0m
+[0m2021.05.20 08:47:16 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6-sources.jar (1.5 MB at 765 kB/s)[0m
+[0m2021.05.20 08:47:16 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/2.4.5/spring-boot-starter-jdbc-2.4.5-sources.jar[0m
+[0m2021.05.20 08:47:16 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/2.4.5/spring-boot-starter-jdbc-2.4.5-sources.jar (4.7 kB at 14 kB/s)[0m
+[0m2021.05.20 08:47:16 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.3.6/spring-jdbc-5.3.6-sources.jar[0m
+[0m2021.05.20 08:47:17 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.3.6/spring-jdbc-5.3.6-sources.jar (430 kB at 635 kB/s)[0m
+[0m2021.05.20 08:47:17 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.22/byte-buddy-1.10.22-sources.jar[0m
+[0m2021.05.20 08:47:18 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.22/byte-buddy-1.10.22-sources.jar (1.2 MB at 957 kB/s)[0m
+[0m2021.05.20 08:47:18 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7-sources.jar[0m
+[0m2021.05.20 08:47:18 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.4/txw2-2.3.4-sources.jar[0m
+[0m2021.05.20 08:47:18 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.4/txw2-2.3.4-sources.jar (69 kB at 182 kB/s)[0m
+[0m2021.05.20 08:47:18 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12-sources.jar[0m
+[0m2021.05.20 08:47:18 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12-sources.jar (27 kB at 78 kB/s)[0m
+[0m2021.05.20 08:47:19 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/5.3.6/spring-aspects-5.3.6-sources.jar[0m
+[0m2021.05.20 08:47:19 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/5.3.6/spring-aspects-5.3.6-sources.jar (31 kB at 95 kB/s)[0m
+[0m2021.05.20 08:47:19 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/2.4.5/spring-boot-starter-thymeleaf-2.4.5-sources.jar[0m
+[0m2021.05.20 08:47:19 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/2.4.5/spring-boot-starter-thymeleaf-2.4.5-sources.jar (4.7 kB at 15 kB/s)[0m
+[0m2021.05.20 08:47:19 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.4.5/spring-boot-starter-2.4.5-sources.jar[0m
+[0m2021.05.20 08:47:19 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.4.5/spring-boot-starter-2.4.5-sources.jar (4.7 kB at 14 kB/s)[0m
+[0m2021.05.20 08:47:20 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.4.5/spring-boot-starter-logging-2.4.5-sources.jar[0m
+[0m2021.05.20 08:47:20 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.4.5/spring-boot-starter-logging-2.4.5-sources.jar (4.7 kB at 14 kB/s)[0m
+[0m2021.05.20 08:47:20 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring5/3.0.12.RELEASE/thymeleaf-spring5-3.0.12.RELEASE-sources.jar[0m
+[0m2021.05.20 08:47:20 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring5/3.0.12.RELEASE/thymeleaf-spring5-3.0.12.RELEASE-sources.jar (189 kB at 494 kB/s)[0m
+[0m2021.05.20 08:47:20 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.0.12.RELEASE/thymeleaf-3.0.12.RELEASE-sources.jar[0m
+[0m2021.05.20 08:47:22 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.0.12.RELEASE/thymeleaf-3.0.12.RELEASE-sources.jar (841 kB at 849 kB/s)[0m
+[0m2021.05.20 08:47:22 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE-sources.jar[0m
+[0m2021.05.20 08:47:22 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE-sources.jar (221 kB at 613 kB/s)[0m
+[0m2021.05.20 08:47:22 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE-sources.jar[0m
+[0m2021.05.20 08:47:22 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE-sources.jar (193 kB at 531 kB/s)[0m
+[0m2021.05.20 08:47:22 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.4.RELEASE/thymeleaf-extras-java8time-3.0.4.RELEASE-sources.jar[0m
+[0m2021.05.20 08:47:23 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.4.RELEASE/thymeleaf-extras-java8time-3.0.4.RELEASE-sources.jar (38 kB at 115 kB/s)[0m
+[0m2021.05.20 08:47:23 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.4.5/spring-boot-starter-validation-2.4.5-sources.jar[0m
+[0m2021.05.20 08:47:23 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.4.5/spring-boot-starter-validation-2.4.5-sources.jar (4.7 kB at 15 kB/s)[0m
+[0m2021.05.20 08:47:23 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.1.7.Final/hibernate-validator-6.1.7.Final-sources.jar[0m
+[0m2021.05.20 08:47:23 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.1.7.Final/hibernate-validator-6.1.7.Final-sources.jar (927 kB at 1.8 MB/s)[0m
+[0m2021.05.20 08:47:23 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.4.5/spring-boot-starter-web-2.4.5-sources.jar[0m
+[0m2021.05.20 08:47:24 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.4.5/spring-boot-starter-web-2.4.5-sources.jar (4.7 kB at 15 kB/s)[0m
+[0m2021.05.20 08:47:24 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.4.5/spring-boot-starter-json-2.4.5-sources.jar[0m
+[0m2021.05.20 08:47:24 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.4.5/spring-boot-starter-json-2.4.5-sources.jar (4.7 kB at 15 kB/s)[0m
+[0m2021.05.20 08:47:24 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.4.5/spring-boot-starter-tomcat-2.4.5-sources.jar[0m
+[0m2021.05.20 08:47:24 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.4.5/spring-boot-starter-tomcat-2.4.5-sources.jar (4.7 kB at 14 kB/s)[0m
+[0m2021.05.20 08:47:24 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.3.6/spring-expression-5.3.6-sources.jar[0m
+[0m2021.05.20 08:47:26 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.3.6/spring-expression-5.3.6-sources.jar (218 kB at 425 kB/s)[0m
+[0m2021.05.20 08:47:26 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.4.5/spring-boot-starter-test-2.4.5-sources.jar[0m
+[0m2021.05.20 08:47:26 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.4.5/spring-boot-starter-test-2.4.5-sources.jar (4.7 kB at 14 kB/s)[0m
+[0m2021.05.20 08:47:26 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.4.5/spring-boot-test-2.4.5-sources.jar[0m
+[0m2021.05.20 08:47:26 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.4.5/spring-boot-test-2.4.5-sources.jar (153 kB at 416 kB/s)[0m
+[0m2021.05.20 08:47:26 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.4.5/spring-boot-test-autoconfigure-2.4.5-sources.jar[0m
+[0m2021.05.20 08:47:27 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.4.5/spring-boot-test-autoconfigure-2.4.5-sources.jar (176 kB at 478 kB/s)[0m
+[0m2021.05.20 08:47:27 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.10.22/byte-buddy-agent-1.10.22-sources.jar[0m
+[0m2021.05.20 08:47:27 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.10.22/byte-buddy-agent-1.10.22-sources.jar (199 kB at 529 kB/s)[0m
+[0m2021.05.20 08:47:27 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.3.6/spring-core-5.3.6-sources.jar[0m
+[0m2021.05.20 08:47:28 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.3.6/spring-core-5.3.6-sources.jar (997 kB at 1.3 MB/s)[0m
+[0m2021.05.20 08:47:28 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.3.6/spring-jcl-5.3.6-sources.jar[0m
+[0m2021.05.20 08:47:28 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.3.6/spring-jcl-5.3.6-sources.jar (13 kB at 39 kB/s)[0m
+[0m2021.05.20 08:47:28 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.3.6/spring-test-5.3.6-sources.jar[0m
+[0m2021.05.20 08:47:28 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.3.6/spring-test-5.3.6-sources.jar (618 kB at 1.0 MB/s)[0m
+[0m2021.05.20 08:47:28 INFO  [INFO] [0m
+[0m2021.05.20 08:47:28 INFO  [INFO] The following files have been resolved:[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    org.springframework.boot:spring-boot-starter-data-jpa:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    org.springframework.boot:spring-boot-starter-aop:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    org.springframework:spring-aop:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    org.aspectj:aspectjweaver:jar:sources:1.9.6[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    org.springframework.boot:spring-boot-starter-jdbc:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    com.zaxxer:HikariCP:jar:sources:3.4.5[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    org.springframework:spring-jdbc:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    jakarta.transaction:jakarta.transaction-api:jar:sources:1.3.3[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    jakarta.persistence:jakarta.persistence-api:jar:sources:2.2.3[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    org.hibernate:hibernate-core:jar:sources:5.4.30.Final[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    org.jboss.logging:jboss-logging:jar:sources:3.4.1.Final[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    org.javassist:javassist:jar:sources:3.27.0-GA[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    net.bytebuddy:byte-buddy:jar:sources:1.10.22[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    org.jboss:jandex:jar:sources:2.2.3.Final[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    com.fasterxml:classmate:jar:sources:1.5.1[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    org.dom4j:dom4j:jar:sources:2.1.3[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    org.hibernate.common:hibernate-commons-annotations:jar:sources:5.1.2.Final[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    org.glassfish.jaxb:jaxb-runtime:jar:sources:2.3.4[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    org.glassfish.jaxb:txw2:jar:sources:2.3.4[0m
+[0m2021.05.20 08:47:28 INFO  [INFO]    com.sun.istack:istack-commons-runtime:jar:sources:3.0.12[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.sun.activation:jakarta.activation:jar:sources:1.2.2[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.data:spring-data-jpa:jar:sources:2.4.8[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.data:spring-data-commons:jar:sources:2.4.8[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-orm:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-context:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-tx:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-beans:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.slf4j:slf4j-api:jar:sources:1.7.30[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-aspects:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter-thymeleaf:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-autoconfigure:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter-logging:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    ch.qos.logback:logback-classic:jar:sources:1.2.3[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    ch.qos.logback:logback-core:jar:sources:1.2.3[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.apache.logging.log4j:log4j-to-slf4j:jar:sources:2.13.3[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.apache.logging.log4j:log4j-api:jar:sources:2.13.3[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.slf4j:jul-to-slf4j:jar:sources:1.7.30[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    jakarta.annotation:jakarta.annotation-api:jar:sources:1.3.5[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.yaml:snakeyaml:jar:sources:1.27[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.thymeleaf:thymeleaf-spring5:jar:sources:3.0.12.RELEASE[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.thymeleaf:thymeleaf:jar:sources:3.0.12.RELEASE[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.attoparser:attoparser:jar:sources:2.0.5.RELEASE[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.unbescape:unbescape:jar:sources:1.1.6.RELEASE[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.thymeleaf.extras:thymeleaf-extras-java8time:jar:sources:3.0.4.RELEASE[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter-validation:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.glassfish:jakarta.el:jar:sources:3.0.3[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.hibernate.validator:hibernate-validator:jar:sources:6.1.7.Final[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    jakarta.validation:jakarta.validation-api:jar:sources:2.0.2[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter-web:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter-json:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.fasterxml.jackson.core:jackson-databind:jar:sources:2.11.4[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.11.4[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.fasterxml.jackson.core:jackson-core:jar:sources:2.11.4[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:sources:2.11.4[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:sources:2.11.4[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.fasterxml.jackson.module:jackson-module-parameter-names:jar:sources:2.11.4[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter-tomcat:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.apache.tomcat.embed:tomcat-embed-core:jar:sources:9.0.45[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.apache.tomcat.embed:tomcat-embed-websocket:jar:sources:9.0.45[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-web:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-webmvc:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-expression:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter-test:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-test:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-test-autoconfigure:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.jayway.jsonpath:json-path:jar:sources:2.4.0[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    net.minidev:json-smart:jar:sources:2.3[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    net.minidev:accessors-smart:jar:sources:1.2[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.ow2.asm:asm:jar:sources:5.0.4[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    jakarta.xml.bind:jakarta.xml.bind-api:jar:sources:2.3.3[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    jakarta.activation:jakarta.activation-api:jar:sources:1.2.2[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.assertj:assertj-core:jar:sources:3.18.1[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.hamcrest:hamcrest:jar:sources:2.2[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.junit.jupiter:junit-jupiter:jar:sources:5.7.1[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.junit.jupiter:junit-jupiter-api:jar:sources:5.7.1[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.apiguardian:apiguardian-api:jar:sources:1.1.0[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.opentest4j:opentest4j:jar:sources:1.2.0[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.junit.platform:junit-platform-commons:jar:sources:1.7.1[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.junit.jupiter:junit-jupiter-params:jar:sources:5.7.1[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.junit.jupiter:junit-jupiter-engine:jar:sources:5.7.1[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.junit.platform:junit-platform-engine:jar:sources:1.7.1[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.mockito:mockito-core:jar:sources:3.6.28[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    net.bytebuddy:byte-buddy-agent:jar:sources:1.10.22[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.objenesis:objenesis:jar:sources:3.1[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.mockito:mockito-junit-jupiter:jar:sources:3.6.28[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.skyscreamer:jsonassert:jar:sources:1.5.0[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.vaadin.external.google:android-json:jar:sources:0.0.20131108.vaadin1[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-core:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-jcl:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-test:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.xmlunit:xmlunit-core:jar:sources:2.7.0[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.projectlombok:lombok:jar:sources:1.18.20[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    mysql:mysql-connector-java:jar:sources:8.0.23[0m
+[0m2021.05.20 08:47:29 INFO  [INFO] [0m
+[0m2021.05.20 08:47:29 INFO  [INFO] The following files have NOT been resolved:[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter-data-jpa:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter-aop:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-aop:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.aspectj:aspectjweaver:jar:1.9.6:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.zaxxer:HikariCP:jar:3.4.5:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-jdbc:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    jakarta.transaction:jakarta.transaction-api:jar:1.3.3:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    jakarta.persistence:jakarta.persistence-api:jar:2.2.3:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.hibernate:hibernate-core:jar:5.4.30.Final:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.jboss.logging:jboss-logging:jar:3.4.1.Final:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.javassist:javassist:jar:3.27.0-GA:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    net.bytebuddy:byte-buddy:jar:1.10.22:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    antlr:antlr:jar:2.7.7:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.jboss:jandex:jar:2.2.3.Final:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.fasterxml:classmate:jar:1.5.1:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.dom4j:dom4j:jar:2.1.3:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.hibernate.common:hibernate-commons-annotations:jar:5.1.2.Final:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.glassfish.jaxb:jaxb-runtime:jar:2.3.4:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.glassfish.jaxb:txw2:jar:2.3.4:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.sun.istack:istack-commons-runtime:jar:3.0.12:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.sun.activation:jakarta.activation:jar:1.2.2:runtime[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.data:spring-data-jpa:jar:2.4.8:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.data:spring-data-commons:jar:2.4.8:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-orm:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-context:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-tx:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-beans:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.slf4j:slf4j-api:jar:1.7.30:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-aspects:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-autoconfigure:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter-logging:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    ch.qos.logback:logback-classic:jar:1.2.3:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    ch.qos.logback:logback-core:jar:1.2.3:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.apache.logging.log4j:log4j-api:jar:2.13.3:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.slf4j:jul-to-slf4j:jar:1.7.30:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.yaml:snakeyaml:jar:1.27:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.thymeleaf:thymeleaf-spring5:jar:3.0.12.RELEASE:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.thymeleaf:thymeleaf:jar:3.0.12.RELEASE:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.attoparser:attoparser:jar:2.0.5.RELEASE:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.unbescape:unbescape:jar:1.1.6.RELEASE:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.thymeleaf.extras:thymeleaf-extras-java8time:jar:3.0.4.RELEASE:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter-validation:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.glassfish:jakarta.el:jar:3.0.3:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.hibernate.validator:hibernate-validator:jar:6.1.7.Final:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    jakarta.validation:jakarta.validation-api:jar:2.0.2:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter-web:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter-json:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.11.4:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.11.4:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.11.4:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.4:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.4:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.4:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.45:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.45:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-web:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-webmvc:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-expression:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-starter-test:jar:2.4.5:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-test:jar:2.4.5:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework.boot:spring-boot-test-autoconfigure:jar:2.4.5:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.jayway.jsonpath:json-path:jar:2.4.0:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    net.minidev:json-smart:jar:2.3:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    net.minidev:accessors-smart:jar:1.2:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.ow2.asm:asm:jar:5.0.4:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    jakarta.activation:jakarta.activation-api:jar:1.2.2:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.assertj:assertj-core:jar:3.18.1:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.hamcrest:hamcrest:jar:2.2:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.junit.jupiter:junit-jupiter:jar:5.7.1:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.junit.jupiter:junit-jupiter-api:jar:5.7.1:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.apiguardian:apiguardian-api:jar:1.1.0:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.opentest4j:opentest4j:jar:1.2.0:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.junit.platform:junit-platform-commons:jar:1.7.1:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.junit.jupiter:junit-jupiter-params:jar:5.7.1:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.junit.jupiter:junit-jupiter-engine:jar:5.7.1:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.junit.platform:junit-platform-engine:jar:1.7.1:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.mockito:mockito-core:jar:3.6.28:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    net.bytebuddy:byte-buddy-agent:jar:1.10.22:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.objenesis:objenesis:jar:3.1:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.mockito:mockito-junit-jupiter:jar:3.6.28:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.skyscreamer:jsonassert:jar:1.5.0:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-core:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-jcl:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.springframework:spring-test:jar:5.3.6:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.xmlunit:xmlunit-core:jar:2.7.0:test[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    org.projectlombok:lombok:jar:1.18.20:annotationProcessor[0m
+[0m2021.05.20 08:47:29 INFO  [INFO]    mysql:mysql-connector-java:jar:8.0.23:runtime[0m
+[0m2021.05.20 08:47:29 INFO  [INFO] [0m
+[0m2021.05.20 08:47:29 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.05.20 08:47:29 INFO  [INFO] BUILD SUCCESS[0m
+[0m2021.05.20 08:47:29 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.05.20 08:47:29 INFO  [INFO] Total time: 57.601 s[0m
+[0m2021.05.20 08:47:29 INFO  [INFO] Finished at: 2021-05-20T08:47:29+05:30[0m
+[0m2021.05.20 08:47:29 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.05.20 08:47:29 INFO  [WARNING] you don't define org.scala-lang:scala-library as a dependency of the project[0m
+[0m2021.05.20 08:47:29 INFO  [INFO] Generated .bloop\marketplace.json[0m
+[0m2021.05.20 08:47:32 INFO  [INFO] Scanning for projects...[0m
+[0m2021.05.20 08:47:32 INFO  [WARNING] [0m
+[0m2021.05.20 08:47:32 INFO  [WARNING] Some problems were encountered while building the effective model for com.deepak:marketplace:jar:0.0.1-SNAPSHOT[0m
+[0m2021.05.20 08:47:32 INFO  [WARNING] 'dependencies.dependency.scope' for org.projectlombok:lombok:jar must be one of [provided, compile, runtime, test, system] but is 'annotationProcessor'. @ line 46, column 11[0m
+[0m2021.05.20 08:47:32 INFO  [WARNING] [0m
+[0m2021.05.20 08:47:32 INFO  [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.[0m
+[0m2021.05.20 08:47:32 INFO  [WARNING] [0m
+[0m2021.05.20 08:47:32 INFO  [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.[0m
+[0m2021.05.20 08:47:32 INFO  [WARNING] [0m
+[0m2021.05.20 08:47:34 INFO  [INFO] [0m
+[0m2021.05.20 08:47:34 INFO  [INFO] -----------------------< com.deepak:marketplace >-----------------------[0m
+[0m2021.05.20 08:47:34 INFO  [INFO] Building marketplace 0.0.1-SNAPSHOT[0m
+[0m2021.05.20 08:47:34 INFO  [INFO] --------------------------------[ jar ]---------------------------------[0m
+[0m2021.05.20 08:47:35 INFO  [INFO] [0m
+[0m2021.05.20 08:47:35 INFO  [INFO] --- maven-dependency-plugin:3.1.2:sources (default-cli) @ marketplace ---[0m
+[0m2021.05.20 08:47:37 INFO  [INFO] [0m
+[0m2021.05.20 08:47:37 INFO  [INFO] The following files have been resolved:[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-data-jpa:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-aop:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-aop:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.aspectj:aspectjweaver:jar:sources:1.9.6[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-jdbc:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.zaxxer:HikariCP:jar:sources:3.4.5[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-jdbc:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    jakarta.transaction:jakarta.transaction-api:jar:sources:1.3.3[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    jakarta.persistence:jakarta.persistence-api:jar:sources:2.2.3[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.hibernate:hibernate-core:jar:sources:5.4.30.Final[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.jboss.logging:jboss-logging:jar:sources:3.4.1.Final[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.javassist:javassist:jar:sources:3.27.0-GA[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    net.bytebuddy:byte-buddy:jar:sources:1.10.22[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.jboss:jandex:jar:sources:2.2.3.Final[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.fasterxml:classmate:jar:sources:1.5.1[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.dom4j:dom4j:jar:sources:2.1.3[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.hibernate.common:hibernate-commons-annotations:jar:sources:5.1.2.Final[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.glassfish.jaxb:jaxb-runtime:jar:sources:2.3.4[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.glassfish.jaxb:txw2:jar:sources:2.3.4[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.sun.istack:istack-commons-runtime:jar:sources:3.0.12[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.sun.activation:jakarta.activation:jar:sources:1.2.2[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.data:spring-data-jpa:jar:sources:2.4.8[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.data:spring-data-commons:jar:sources:2.4.8[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-orm:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-context:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-tx:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-beans:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.slf4j:slf4j-api:jar:sources:1.7.30[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-aspects:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-thymeleaf:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-autoconfigure:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-logging:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    ch.qos.logback:logback-classic:jar:sources:1.2.3[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    ch.qos.logback:logback-core:jar:sources:1.2.3[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.apache.logging.log4j:log4j-to-slf4j:jar:sources:2.13.3[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.apache.logging.log4j:log4j-api:jar:sources:2.13.3[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.slf4j:jul-to-slf4j:jar:sources:1.7.30[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    jakarta.annotation:jakarta.annotation-api:jar:sources:1.3.5[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.yaml:snakeyaml:jar:sources:1.27[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.thymeleaf:thymeleaf-spring5:jar:sources:3.0.12.RELEASE[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.thymeleaf:thymeleaf:jar:sources:3.0.12.RELEASE[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.attoparser:attoparser:jar:sources:2.0.5.RELEASE[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.unbescape:unbescape:jar:sources:1.1.6.RELEASE[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.thymeleaf.extras:thymeleaf-extras-java8time:jar:sources:3.0.4.RELEASE[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-validation:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.glassfish:jakarta.el:jar:sources:3.0.3[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.hibernate.validator:hibernate-validator:jar:sources:6.1.7.Final[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    jakarta.validation:jakarta.validation-api:jar:sources:2.0.2[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-web:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-json:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.fasterxml.jackson.core:jackson-databind:jar:sources:2.11.4[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.11.4[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.fasterxml.jackson.core:jackson-core:jar:sources:2.11.4[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:sources:2.11.4[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:sources:2.11.4[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.fasterxml.jackson.module:jackson-module-parameter-names:jar:sources:2.11.4[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-tomcat:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.apache.tomcat.embed:tomcat-embed-core:jar:sources:9.0.45[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.apache.tomcat.embed:tomcat-embed-websocket:jar:sources:9.0.45[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-web:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-webmvc:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-expression:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-test:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-test:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-test-autoconfigure:jar:sources:2.4.5[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.jayway.jsonpath:json-path:jar:sources:2.4.0[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    net.minidev:json-smart:jar:sources:2.3[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    net.minidev:accessors-smart:jar:sources:1.2[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.ow2.asm:asm:jar:sources:5.0.4[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    jakarta.xml.bind:jakarta.xml.bind-api:jar:sources:2.3.3[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    jakarta.activation:jakarta.activation-api:jar:sources:1.2.2[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.assertj:assertj-core:jar:sources:3.18.1[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.hamcrest:hamcrest:jar:sources:2.2[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.junit.jupiter:junit-jupiter:jar:sources:5.7.1[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.junit.jupiter:junit-jupiter-api:jar:sources:5.7.1[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.apiguardian:apiguardian-api:jar:sources:1.1.0[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.opentest4j:opentest4j:jar:sources:1.2.0[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.junit.platform:junit-platform-commons:jar:sources:1.7.1[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.junit.jupiter:junit-jupiter-params:jar:sources:5.7.1[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.junit.jupiter:junit-jupiter-engine:jar:sources:5.7.1[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.junit.platform:junit-platform-engine:jar:sources:1.7.1[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.mockito:mockito-core:jar:sources:3.6.28[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    net.bytebuddy:byte-buddy-agent:jar:sources:1.10.22[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.objenesis:objenesis:jar:sources:3.1[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.mockito:mockito-junit-jupiter:jar:sources:3.6.28[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.skyscreamer:jsonassert:jar:sources:1.5.0[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.vaadin.external.google:android-json:jar:sources:0.0.20131108.vaadin1[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-core:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-jcl:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-test:jar:sources:5.3.6[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.xmlunit:xmlunit-core:jar:sources:2.7.0[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.projectlombok:lombok:jar:sources:1.18.20[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    mysql:mysql-connector-java:jar:sources:8.0.23[0m
+[0m2021.05.20 08:47:37 INFO  [INFO] [0m
+[0m2021.05.20 08:47:37 INFO  [INFO] The following files have NOT been resolved:[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-data-jpa:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-aop:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-aop:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.aspectj:aspectjweaver:jar:1.9.6:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.zaxxer:HikariCP:jar:3.4.5:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-jdbc:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    jakarta.transaction:jakarta.transaction-api:jar:1.3.3:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    jakarta.persistence:jakarta.persistence-api:jar:2.2.3:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.hibernate:hibernate-core:jar:5.4.30.Final:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.jboss.logging:jboss-logging:jar:3.4.1.Final:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.javassist:javassist:jar:3.27.0-GA:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    net.bytebuddy:byte-buddy:jar:1.10.22:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    antlr:antlr:jar:2.7.7:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.jboss:jandex:jar:2.2.3.Final:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.fasterxml:classmate:jar:1.5.1:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.dom4j:dom4j:jar:2.1.3:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.hibernate.common:hibernate-commons-annotations:jar:5.1.2.Final:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.glassfish.jaxb:jaxb-runtime:jar:2.3.4:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.glassfish.jaxb:txw2:jar:2.3.4:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.sun.istack:istack-commons-runtime:jar:3.0.12:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.sun.activation:jakarta.activation:jar:1.2.2:runtime[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.data:spring-data-jpa:jar:2.4.8:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.data:spring-data-commons:jar:2.4.8:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-orm:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-context:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-tx:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-beans:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.slf4j:slf4j-api:jar:1.7.30:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-aspects:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-autoconfigure:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-logging:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    ch.qos.logback:logback-classic:jar:1.2.3:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    ch.qos.logback:logback-core:jar:1.2.3:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.apache.logging.log4j:log4j-api:jar:2.13.3:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.slf4j:jul-to-slf4j:jar:1.7.30:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.yaml:snakeyaml:jar:1.27:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.thymeleaf:thymeleaf-spring5:jar:3.0.12.RELEASE:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.thymeleaf:thymeleaf:jar:3.0.12.RELEASE:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.attoparser:attoparser:jar:2.0.5.RELEASE:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.unbescape:unbescape:jar:1.1.6.RELEASE:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.thymeleaf.extras:thymeleaf-extras-java8time:jar:3.0.4.RELEASE:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-validation:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.glassfish:jakarta.el:jar:3.0.3:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.hibernate.validator:hibernate-validator:jar:6.1.7.Final:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    jakarta.validation:jakarta.validation-api:jar:2.0.2:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-web:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-json:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.11.4:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.11.4:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.11.4:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.4:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.4:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.4:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.5:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.45:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.45:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-web:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-webmvc:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-expression:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-starter-test:jar:2.4.5:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-test:jar:2.4.5:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework.boot:spring-boot-test-autoconfigure:jar:2.4.5:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.jayway.jsonpath:json-path:jar:2.4.0:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    net.minidev:json-smart:jar:2.3:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    net.minidev:accessors-smart:jar:1.2:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.ow2.asm:asm:jar:5.0.4:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    jakarta.activation:jakarta.activation-api:jar:1.2.2:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.assertj:assertj-core:jar:3.18.1:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.hamcrest:hamcrest:jar:2.2:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.junit.jupiter:junit-jupiter:jar:5.7.1:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.junit.jupiter:junit-jupiter-api:jar:5.7.1:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.apiguardian:apiguardian-api:jar:1.1.0:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.opentest4j:opentest4j:jar:1.2.0:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.junit.platform:junit-platform-commons:jar:1.7.1:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.junit.jupiter:junit-jupiter-params:jar:5.7.1:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.junit.jupiter:junit-jupiter-engine:jar:5.7.1:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.junit.platform:junit-platform-engine:jar:1.7.1:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.mockito:mockito-core:jar:3.6.28:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    net.bytebuddy:byte-buddy-agent:jar:1.10.22:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.objenesis:objenesis:jar:3.1:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.mockito:mockito-junit-jupiter:jar:3.6.28:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.skyscreamer:jsonassert:jar:1.5.0:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-core:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-jcl:jar:5.3.6:compile[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.springframework:spring-test:jar:5.3.6:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.xmlunit:xmlunit-core:jar:2.7.0:test[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    org.projectlombok:lombok:jar:1.18.20:annotationProcessor[0m
+[0m2021.05.20 08:47:37 INFO  [INFO]    mysql:mysql-connector-java:jar:8.0.23:runtime[0m
+[0m2021.05.20 08:47:37 INFO  [INFO] [0m
+[0m2021.05.20 08:47:37 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.05.20 08:47:37 INFO  [INFO] BUILD SUCCESS[0m
+[0m2021.05.20 08:47:37 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.05.20 08:47:37 INFO  [INFO] Total time: 5.548 s[0m
+[0m2021.05.20 08:47:37 INFO  [INFO] Finished at: 2021-05-20T08:47:38+05:30[0m
+[0m2021.05.20 08:47:37 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.05.20 08:47:37 INFO  [INFO] Generated .bloop\marketplace-test.json[0m
+[0m2021.05.20 08:47:37 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.05.20 08:47:37 INFO  [INFO] BUILD SUCCESS[0m
+[0m2021.05.20 08:47:37 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.05.20 08:47:37 INFO  [INFO] Total time: 01:13 min[0m
+[0m2021.05.20 08:47:37 INFO  [INFO] Finished at: 2021-05-20T08:47:38+05:30[0m
+[0m2021.05.20 08:47:37 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.05.20 08:47:37 INFO  mvn bloopInstall exit: 0[0m
+[0m2021.05.20 08:47:38 INFO  time: ran 'mvn bloopInstall' in 1m16s[0m
+[0m2021.05.20 08:47:38 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 20385'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\VC\Desktop\marketplace\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\VC\Desktop\marketplace\.bloop\marketplace-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\VC\Desktop\marketplace\.bloop\marketplace.json'
+[0m[32m[D][0m Missing analysis file for project 'marketplace'
+[0m[32m[D][0m Missing analysis file for project 'marketplace-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:20385...
+The server is listening for incoming connections at tcp://127.0.0.1:20385...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.20 08:47:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\VC\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.20 08:47:57 INFO  time: Connected to build server in 19s[0m
+[0m2021.05.20 08:47:57 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.05.20 08:47:57 INFO  time: Imported build in 0.29s[0m
+[0m2021.05.20 08:48:03 INFO  time: indexed workspace in 5.35s[0m
+[0m2021.05.20 09:01:44 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:01:44 INFO  time: compiled marketplace in 0.44s[0m
+[0m2021.05.20 09:01:44 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:01:47 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:01:47 INFO  time: compiled marketplace in 15ms[0m
+[0m2021.05.20 09:01:47 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:28:40 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:28:40 INFO  time: compiled marketplace in 18ms[0m
+[0m2021.05.20 09:28:40 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:28:43 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:28:43 INFO  time: compiled marketplace in 13ms[0m
+[0m2021.05.20 09:28:43 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:29:11 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:29:11 INFO  time: compiled marketplace in 13ms[0m
+[0m2021.05.20 09:29:11 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:29:13 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:29:13 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 09:29:13 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:29:17 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:29:17 INFO  time: compiled marketplace in 13ms[0m
+[0m2021.05.20 09:29:17 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:29:19 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:29:19 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 09:29:19 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:29:22 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:29:22 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 09:29:22 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:29:24 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:29:24 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 09:29:24 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:30:14 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:30:14 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 09:30:14 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:30:16 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:30:16 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 09:30:16 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:35:49 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:35:49 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 09:35:49 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:35:51 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:35:51 INFO  time: compiled marketplace in 13ms[0m
+[0m2021.05.20 09:35:51 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:36:44 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:36:44 INFO  time: compiled marketplace in 12ms[0m
+[0m2021.05.20 09:36:44 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:36:46 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:36:46 INFO  time: compiled marketplace in 14ms[0m
+[0m2021.05.20 09:36:46 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:37:06 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:37:06 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 09:37:06 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:37:08 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:37:08 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 09:37:08 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:37:10 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:37:10 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 09:37:10 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:37:51 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:37:51 INFO  time: compiled marketplace in 12ms[0m
+[0m2021.05.20 09:37:51 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:37:53 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:37:53 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 09:37:53 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:38:23 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:38:23 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 09:38:23 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:38:26 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:38:26 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 09:38:26 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:40:14 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:40:14 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 09:40:14 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:40:16 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:40:16 INFO  time: compiled marketplace in 31ms[0m
+[0m2021.05.20 09:40:16 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:40:18 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:40:18 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 09:40:18 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 09:40:20 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 09:40:20 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 09:40:20 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 10:14:32 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 10:14:32 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 10:14:32 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 10:14:34 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 10:14:34 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 10:14:34 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+May 20, 2021 10:14:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "jdt://contents/spring-web-5.3.6.jar/org.springframework.http/ResponseEntity.class?%3Dmarketplace%2FC%3A%5C%2FUsers%5C%2FVC%5C%2F.m2%5C%2Frepository%5C%2Forg%5C%2Fspringframework%5C%2Fspring-web%5C%2F5.3.6%5C%2Fspring-web-5.3.6.jar%3D%2Fmaven.pomderived%3D%2Ftrue%3D%2F%3D%2Fmaven.pomderived%3D%2Ftrue%3D%2F%3D%2Fjavadoc_location%3D%2Fjar%3Afile%3A%5C%2FC%3A%5C%2FUsers%5C%2FVC%5C%2F.m2%5C%2Frepository%5C%2Forg%5C%2Fspringframework%5C%2Fspring-web%5C%2F5.3.6%5C%2Fspring-web-5.3.6-javadoc.jar%5C%21%5C%2F%3D%2F%3D%2Fmaven.groupId%3D%2Forg.springframework%3D%2F%3D%2Fmaven.artifactId%3D%2Fspring-web%3D%2F%3D%2Fmaven.version%3D%2F5.3.6%3D%2F%3D%2Fmaven.scope%3D%2Fcompile%3D%2F%3Corg.springframework.http%28ResponseEntity.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "jdt" not installed
+	at java.nio.file.Paths.get(Paths.java:147)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:478)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:475)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1013)
+	... 15 more
+
+[0m2021.05.20 10:14:59 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 10:14:59 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 10:14:59 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 10:15:01 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 10:15:01 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 10:15:01 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 10:36:01 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 10:36:01 INFO  time: compiled marketplace in 12ms[0m
+[0m2021.05.20 10:36:01 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 10:36:04 INFO  compiling marketplace (21 java sources)[0m
+[0m2021.05.20 10:36:04 INFO  time: compiled marketplace in 53ms[0m
+[0m2021.05.20 10:36:04 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 11:17:47 INFO  shutting down Metals[0m
+[0m2021.05.20 11:17:48 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.05.20 12:11:50 INFO  Started: Metals version 0.10.3 in workspace 'C:\Users\VC\Desktop\marketplace' for client Visual Studio Code 1.56.2.[0m
+[0m2021.05.20 12:11:55 INFO  time: initialize in 4.48s[0m
+[0m2021.05.20 12:11:55 INFO  Attempting to connect to the build server...[0m
+[0m2021.05.20 12:11:56 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 39474'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\VC\Desktop\marketplace\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\VC\Desktop\marketplace\.bloop\marketplace.json'
+[0m[32m[D][0m Loading project from 'c:\Users\VC\Desktop\marketplace\.bloop\marketplace-test.json'
+[0m[32m[D][0m Missing analysis file for project 'marketplace-test'
+[0m[32m[D][0m Missing analysis file for project 'marketplace'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:39474...
+The server is listening for incoming connections at tcp://127.0.0.1:39474...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.20 12:12:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\VC\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.20 12:12:09 INFO  time: Connected to build server in 13s[0m
+[0m2021.05.20 12:12:09 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.05.20 12:12:09 INFO  time: Imported build in 0.26s[0m
+[0m2021.05.20 12:12:09 INFO  time: indexed workspace in 0.64s[0m
+[0m2021.05.20 12:49:32 INFO  compiling marketplace (22 java sources)[0m
+[0m2021.05.20 12:49:32 INFO  time: compiled marketplace in 0.25s[0m
+[0m2021.05.20 12:49:32 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:49:35 INFO  compiling marketplace (22 java sources)[0m
+[0m2021.05.20 12:49:35 INFO  time: compiled marketplace in 14ms[0m
+[0m2021.05.20 12:49:35 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:52:13 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:52:13 INFO  time: compiled marketplace in 15ms[0m
+[0m2021.05.20 12:52:13 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:52:15 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:52:15 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 12:52:15 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:52:34 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:52:34 INFO  time: compiled marketplace in 17ms[0m
+[0m2021.05.20 12:52:34 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:52:36 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:52:36 INFO  time: compiled marketplace in 23ms[0m
+[0m2021.05.20 12:52:36 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:52:45 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:52:45 INFO  time: compiled marketplace in 14ms[0m
+[0m2021.05.20 12:52:45 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:52:47 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:52:47 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 12:52:47 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:54:36 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:54:36 INFO  time: compiled marketplace in 14ms[0m
+[0m2021.05.20 12:54:36 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:54:39 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:54:39 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 12:54:39 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:54:41 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:54:41 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 12:54:41 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:54:43 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:54:43 INFO  time: compiled marketplace in 13ms[0m
+[0m2021.05.20 12:54:43 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:54:56 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:54:56 INFO  time: compiled marketplace in 13ms[0m
+[0m2021.05.20 12:54:56 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:54:58 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:54:58 INFO  time: compiled marketplace in 12ms[0m
+[0m2021.05.20 12:54:58 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:58:12 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:58:12 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 12:58:12 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:58:14 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:58:14 INFO  time: compiled marketplace in 13ms[0m
+[0m2021.05.20 12:58:14 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:59:09 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:59:09 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 12:59:09 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:59:11 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:59:11 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 12:59:11 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:59:18 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:59:18 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 12:59:18 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:59:20 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:59:20 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 12:59:20 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:59:38 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:59:38 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 12:59:38 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:59:40 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:59:40 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 12:59:40 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:59:45 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:59:45 INFO  time: compiled marketplace in 15ms[0m
+[0m2021.05.20 12:59:45 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 12:59:48 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 12:59:48 INFO  time: compiled marketplace in 5ms[0m
+[0m2021.05.20 12:59:48 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 13:01:18 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 13:01:18 INFO  time: compiled marketplace in 15ms[0m
+[0m2021.05.20 13:01:18 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 13:01:21 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 13:01:21 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 13:01:21 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 13:04:56 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 13:04:56 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 13:04:56 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 13:04:59 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 13:04:59 INFO  time: compiled marketplace in 5ms[0m
+[0m2021.05.20 13:04:59 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 13:06:04 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 13:06:04 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 13:06:04 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 13:06:06 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 13:06:06 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 13:06:06 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 13:08:10 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 13:08:10 INFO  time: compiled marketplace in 14ms[0m
+[0m2021.05.20 13:08:10 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 13:08:12 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 13:08:12 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 13:08:12 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 13:10:29 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 13:10:29 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 13:10:29 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 13:10:32 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 13:10:32 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 13:10:32 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 13:11:23 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 13:11:23 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 13:11:23 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 13:11:25 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 13:11:25 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 13:11:25 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:12:28 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:12:28 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 14:12:28 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:12:30 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:12:30 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 14:12:30 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:12:57 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:12:57 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 14:12:57 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:12:59 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:12:59 INFO  time: compiled marketplace in 5ms[0m
+[0m2021.05.20 14:12:59 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:13:22 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:13:22 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 14:13:22 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:13:25 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:13:25 INFO  time: compiled marketplace in 12ms[0m
+[0m2021.05.20 14:13:25 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:13:30 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:13:30 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 14:13:30 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:13:32 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:13:32 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 14:13:32 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:13:35 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:13:35 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 14:13:35 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:13:49 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:13:49 INFO  time: compiled marketplace in 13ms[0m
+[0m2021.05.20 14:13:49 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:14:17 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:14:17 INFO  time: compiled marketplace in 12ms[0m
+[0m2021.05.20 14:14:17 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:14:19 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:14:19 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 14:14:19 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:15:28 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:15:28 INFO  time: compiled marketplace in 14ms[0m
+[0m2021.05.20 14:15:28 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:15:30 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:15:30 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 14:15:30 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:16:44 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:16:44 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 14:16:44 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:16:46 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:16:46 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 14:16:46 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:17:03 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:17:03 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 14:17:03 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:17:05 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:17:05 INFO  time: compiled marketplace in 15ms[0m
+[0m2021.05.20 14:17:05 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:17:19 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:17:19 INFO  time: compiled marketplace in 12ms[0m
+[0m2021.05.20 14:17:19 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:17:21 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:17:21 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 14:17:21 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:17:39 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:17:39 INFO  time: compiled marketplace in 13ms[0m
+[0m2021.05.20 14:17:39 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:17:41 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:17:41 INFO  time: compiled marketplace in 12ms[0m
+[0m2021.05.20 14:17:41 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:21:08 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:21:08 INFO  time: compiled marketplace in 19ms[0m
+[0m2021.05.20 14:21:08 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:21:10 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:21:10 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 14:21:10 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:22:21 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:22:21 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 14:22:21 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:22:24 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:22:24 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 14:22:24 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:23:11 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:23:11 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 14:23:11 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:23:13 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:23:13 INFO  time: compiled marketplace in 14ms[0m
+[0m2021.05.20 14:23:13 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:23:38 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:23:38 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 14:23:38 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:23:40 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:23:40 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 14:23:40 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:24:34 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:24:34 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 14:24:34 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:25:33 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:25:33 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 14:25:33 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:25:35 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:25:35 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 14:25:35 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:27:18 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:27:18 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 14:27:18 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:27:20 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:27:20 INFO  time: compiled marketplace in 15ms[0m
+[0m2021.05.20 14:27:20 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:33:18 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:33:18 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 14:33:18 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:33:20 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:33:20 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 14:33:20 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:33:34 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:33:34 INFO  time: compiled marketplace in 19ms[0m
+[0m2021.05.20 14:33:34 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:33:37 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:33:37 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 14:33:37 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:33:42 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:33:42 INFO  time: compiled marketplace in 19ms[0m
+[0m2021.05.20 14:33:42 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:33:44 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:33:44 INFO  time: compiled marketplace in 16ms[0m
+[0m2021.05.20 14:33:44 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:35:35 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:35:35 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 14:35:35 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:35:37 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:35:37 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 14:35:37 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:35:39 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:35:39 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 14:35:39 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:35:41 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:35:41 INFO  time: compiled marketplace in 25ms[0m
+[0m2021.05.20 14:35:41 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:37:21 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:37:21 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 14:37:21 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:37:23 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:37:23 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 14:37:23 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:37:26 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:37:26 INFO  time: compiled marketplace in 13ms[0m
+[0m2021.05.20 14:37:26 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:37:29 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:37:29 INFO  time: compiled marketplace in 21ms[0m
+[0m2021.05.20 14:37:29 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:38:44 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:38:44 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 14:38:44 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:38:46 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:38:46 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 14:38:46 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:44:30 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:44:30 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 14:44:30 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:44:39 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:44:39 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 14:44:39 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:44:41 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:44:41 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 14:44:41 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:44:48 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:44:48 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 14:44:48 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:44:50 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:44:50 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 14:44:50 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:45:04 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:45:04 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 14:45:04 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:45:06 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:45:06 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 14:45:06 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:46:02 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:46:02 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 14:46:02 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:46:05 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:46:05 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 14:46:05 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:46:07 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:46:07 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 14:46:07 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:46:13 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:46:13 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 14:46:13 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:46:15 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:46:15 INFO  time: compiled marketplace in 13ms[0m
+[0m2021.05.20 14:46:15 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:46:23 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:46:23 INFO  time: compiled marketplace in 13ms[0m
+[0m2021.05.20 14:46:23 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:46:25 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:46:25 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 14:46:25 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:46:58 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:46:58 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 14:46:58 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:47:00 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:47:00 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 14:47:00 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:48:12 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:48:12 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 14:48:12 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:48:14 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:48:14 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 14:48:14 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:48:23 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:48:23 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 14:48:23 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:48:25 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:48:25 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 14:48:25 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:48:41 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:48:41 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 14:48:41 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:48:44 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:48:44 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 14:48:44 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:48:46 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:48:46 INFO  time: compiled marketplace in 5ms[0m
+[0m2021.05.20 14:48:46 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:55:48 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:55:48 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 14:55:48 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:55:50 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:55:50 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 14:55:50 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:58:10 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:58:10 INFO  time: compiled marketplace in 23ms[0m
+[0m2021.05.20 14:58:10 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:58:13 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:58:13 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 14:58:13 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 14:58:15 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 14:58:15 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 14:58:15 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:32:14 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:32:14 INFO  time: compiled marketplace in 25ms[0m
+[0m2021.05.20 15:32:14 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:32:17 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:32:17 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 15:32:17 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:32:23 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:32:23 INFO  time: compiled marketplace in 16ms[0m
+[0m2021.05.20 15:32:23 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:32:25 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:32:25 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 15:32:25 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:36:46 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:36:46 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 15:36:46 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:36:48 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:36:48 INFO  time: compiled marketplace in 4ms[0m
+[0m2021.05.20 15:36:48 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:36:55 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:36:55 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 15:36:55 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:36:58 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:36:58 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 15:36:58 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:38:34 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:38:34 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 15:38:34 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:38:36 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:38:36 INFO  time: compiled marketplace in 13ms[0m
+[0m2021.05.20 15:38:36 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:40:51 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:40:51 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 15:40:51 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:40:53 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:40:53 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 15:40:53 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:41:56 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:41:56 INFO  time: compiled marketplace in 16ms[0m
+[0m2021.05.20 15:41:56 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:41:58 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:41:58 INFO  time: compiled marketplace in 5ms[0m
+[0m2021.05.20 15:41:58 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:42:04 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:42:04 INFO  time: compiled marketplace in 16ms[0m
+[0m2021.05.20 15:42:04 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:42:06 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:42:06 INFO  time: compiled marketplace in 4ms[0m
+[0m2021.05.20 15:42:06 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:42:24 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:42:24 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 15:42:24 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:42:27 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:42:27 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 15:42:27 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:52:51 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:52:51 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 15:52:51 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:52:53 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:52:53 INFO  time: compiled marketplace in 4ms[0m
+[0m2021.05.20 15:52:53 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:53:01 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:53:01 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 15:53:01 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:53:03 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:53:03 INFO  time: compiled marketplace in 3ms[0m
+[0m2021.05.20 15:53:03 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:55:47 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:55:47 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 15:55:47 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:55:49 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:55:49 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 15:55:49 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:55:51 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:55:51 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 15:55:51 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:55:54 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:55:54 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 15:55:54 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:56:22 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:56:22 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 15:56:22 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:56:24 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:56:24 INFO  time: compiled marketplace in 3ms[0m
+[0m2021.05.20 15:56:24 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:57:23 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:57:23 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 15:57:23 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:57:25 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:57:25 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 15:57:25 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:57:28 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:57:28 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 15:57:28 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:57:30 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:57:30 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 15:57:30 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:59:31 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:59:31 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 15:59:31 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 15:59:33 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 15:59:33 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 15:59:33 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:04:32 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:04:32 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 16:04:32 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:04:34 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:04:34 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 16:04:34 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:06:12 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:06:12 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 16:06:12 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:10:10 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:10:10 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 16:10:10 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:10:13 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:10:13 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 16:10:13 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:13:35 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:13:35 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 16:13:35 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:13:37 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:13:37 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 16:13:37 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:14:16 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:14:16 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 16:14:16 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:14:18 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:14:18 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 16:14:18 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:17:09 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:17:09 INFO  time: compiled marketplace in 5ms[0m
+[0m2021.05.20 16:17:09 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:17:11 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:17:11 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 16:17:11 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:17:13 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:17:13 INFO  time: compiled marketplace in 4ms[0m
+[0m2021.05.20 16:17:13 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:17:18 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:17:18 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 16:17:18 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:17:20 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:17:20 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 16:17:20 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:18:52 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:18:52 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 16:18:52 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:18:55 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:18:55 INFO  time: compiled marketplace in 5ms[0m
+[0m2021.05.20 16:18:55 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:18:57 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:18:57 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 16:18:57 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:18:59 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:18:59 INFO  time: compiled marketplace in 4ms[0m
+[0m2021.05.20 16:18:59 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:21:43 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:21:43 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 16:21:43 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:21:45 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:21:45 INFO  time: compiled marketplace in 16ms[0m
+[0m2021.05.20 16:21:45 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:24:18 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:24:18 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 16:24:18 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:24:20 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:24:20 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 16:24:20 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:25:21 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:25:21 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 16:25:21 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:25:23 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:25:23 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 16:25:23 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:25:39 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:25:39 INFO  time: compiled marketplace in 12ms[0m
+[0m2021.05.20 16:25:39 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:25:42 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:25:42 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 16:25:42 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:26:43 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:26:43 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 16:26:43 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:26:45 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:26:45 INFO  time: compiled marketplace in 5ms[0m
+[0m2021.05.20 16:26:45 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:27:51 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:27:51 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 16:27:51 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 16:27:53 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 16:27:53 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 16:27:53 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:20:25 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:20:25 INFO  time: compiled marketplace in 21ms[0m
+[0m2021.05.20 17:20:25 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:20:27 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:20:27 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 17:20:27 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:23:13 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:23:13 INFO  time: compiled marketplace in 5ms[0m
+[0m2021.05.20 17:23:13 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:23:15 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:23:15 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 17:23:15 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:23:25 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:23:25 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 17:23:25 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:23:27 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:23:27 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 17:23:27 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:24:40 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:24:40 INFO  time: compiled marketplace in 19ms[0m
+[0m2021.05.20 17:24:40 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:24:42 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:24:42 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 17:24:42 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:25:53 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:25:53 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 17:25:53 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:25:56 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:25:56 INFO  time: compiled marketplace in 12ms[0m
+[0m2021.05.20 17:25:56 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:26:40 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:26:40 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 17:26:40 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:26:42 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:26:42 INFO  time: compiled marketplace in 5ms[0m
+[0m2021.05.20 17:26:42 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:28:41 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:28:41 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 17:28:41 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:28:43 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:28:43 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 17:28:43 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:28:47 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:28:47 INFO  time: compiled marketplace in 10ms[0m
+[0m2021.05.20 17:28:47 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:28:49 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:28:49 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 17:28:49 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:29:02 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:29:02 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 17:29:02 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:29:04 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:29:04 INFO  time: compiled marketplace in 1ms[0m
+[0m2021.05.20 17:29:04 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:30:17 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:30:17 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 17:30:17 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:30:19 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:30:19 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 17:30:19 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:30:30 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:30:30 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 17:30:30 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:30:32 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:30:32 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 17:30:32 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:30:34 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:30:34 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 17:30:34 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:31:29 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:31:29 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 17:31:29 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:31:31 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:31:31 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 17:31:31 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:31:36 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:31:36 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 17:31:36 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:31:38 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:31:38 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 17:31:38 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:32:24 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:32:24 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 17:32:24 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:32:26 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:32:26 INFO  time: compiled marketplace in 8ms[0m
+[0m2021.05.20 17:32:26 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:32:50 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:32:50 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 17:32:50 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:32:52 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:32:52 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 17:32:52 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:34:08 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:34:08 INFO  time: compiled marketplace in 9ms[0m
+[0m2021.05.20 17:34:08 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:34:10 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:34:10 INFO  time: compiled marketplace in 5ms[0m
+[0m2021.05.20 17:34:10 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:38:01 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:38:01 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 17:38:01 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:38:03 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:38:03 INFO  time: compiled marketplace in 11ms[0m
+[0m2021.05.20 17:38:03 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:38:09 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:38:09 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 17:38:09 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:38:12 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:38:12 INFO  time: compiled marketplace in 7ms[0m
+[0m2021.05.20 17:38:12 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:38:14 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:38:14 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 17:38:14 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:38:16 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:38:16 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 17:38:16 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:39:10 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:39:10 INFO  time: compiled marketplace in 6ms[0m
+[0m2021.05.20 17:39:10 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:39:12 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.20 17:39:12 INFO  time: compiled marketplace in 26ms[0m
+[0m2021.05.20 17:39:12 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.20 17:39:52 INFO  shutting down Metals[0m
+[0m2021.05.20 17:39:53 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...

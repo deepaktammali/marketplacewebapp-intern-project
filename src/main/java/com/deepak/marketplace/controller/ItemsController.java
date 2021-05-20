@@ -44,7 +44,7 @@ public class ItemsController {
         itemRepository.findAll().forEach(allItems::add);
         model.addAttribute("products",allItems);
         model.addAttribute("pageTitle", "Fresco");
-        model.addAttribute("path", "");
+        model.addAttribute("path", "index");
         return "products";
     } 
     

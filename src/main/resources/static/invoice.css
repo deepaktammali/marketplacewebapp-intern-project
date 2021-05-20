@@ -1,0 +1,113 @@
+body{
+    margin:1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: #ffffff;
+}
+
+p{
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+/* INVOICE title */
+
+.invoice_heading___title{
+  font-size: xx-large;
+}
+
+/* Invoice Date and ID */
+
+.invoice_date_id{
+  padding-left: 10rem;
+}
+
+.invoice_date{
+  text-align: right;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid grey;
+}
+
+.invoice_id{
+  text-align: right;
+  border-bottom: 1px solid grey;
+}
+
+
+
+/* billing and shipping address table styling */
+
+.bill_ship_address_table {
+  margin-bottom: 2rem;
+}
+
+.address_title{
+  margin-bottom: 0.1rem;
+  font-weight: bold;
+  border-bottom: 1px solid grey;
+}
+
+
+/* invoice goods styling */
+.invoice_goods_table{
+	border: collapse;
+  border-spacing: 0;
+}
+
+.invoice_goods_table th,td{
+  padding:10px;
+}
+
+.invoice_goods_table th{
+  border: 1px solid grey;
+  background-color: #ae0000;
+  color: white;
+  font-weight: bold;
+}
+
+.invoice_goods_table tr:nth-of-type(2n+1){
+  background-color: #f3f3f3;
+}
+
+.invoice_goods_table td{
+  border: 1px solid grey;
+}
+
+/* unit price */
+.invoice_goods_table tr td:nth-of-type(3){  
+  text-align: center;
+}
+
+/* total */
+.invoice_goods_table tr td:last-of-type{  
+  text-align: end;
+}
+
+
+/* invoice additional data styling */
+
+/* tax rate and other headers */
+
+.invoice_addl_table td,th{
+  padding: 7px;
+  font-weight: bold;
+  text-align:end;
+}
+
+.invoice_addl_table tr td{ 
+  text-align: end;
+}
+
+.invoiceitems_addl_header{
+  text-align: end;
+}
+
+/* total balance due */
+.invoice_addl_table tr:last-of-type td{
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}

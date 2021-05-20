@@ -9,10 +9,19 @@
         <link rel="stylesheet" href="cart.css" />
         <script defer src="cart.js"></script>
         <link rel="stylesheet" href="global.css" />
+        <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+        <link rel="icon" href="images/favicon.jpg">
+        <script defer src="navbar.js"></script>
     </head>
     <body style="padding: 0;">
 
         <style>
+
+            .remove-product:hover{
+              cursor: pointer;
+            }
+
             .product-title{
                 font-weight: bold;
                 font-size:1.2rem;
@@ -21,12 +30,46 @@
             #cart-total{
                 font-size: large;
             }
+
+            #empty_cart_img{
+              width: 20rem;
+              height: auto;
+            }
+
+            .empty-cart{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            }
+
+            .explore-button{
+              background:#088dff;
+              color:white;
+            }
+
+            .explore-button:hover{
+              background:#0089fe;
+              transform:scale(1.1);
+            }
+
+            .explore-button:first-child{
+              text-decoration: none;
+              color:white;
+            }
+            
         </style>
 
         <div th:insert="fragments/navbar :: navbar(${isLoggedIn})"></div>
         <h1 class="title is-4 mt-5 ml-4">Shopping Cart</h1>
 
-        <div class="shopping-cart p-5">
+        <th:block th:switch="${isCartEmpty}">
+        <div class="empty-cart" th:case="true">
+            <img id="empty_cart_img" src="gif/no_orders.webp" alt="empty_cart_img" /> 
+            <p class="title is-size-3">Your cart is empty</p>
+            <p class="title is-size-5">Explore our products</p>
+            <a href="/"><button class="explore-button button">Explore</button></a>
+        </div>
+        <div class="shopping-cart p-5" th:case="false">
 
             <div class="column-labels">
               <label class="product-image">Image</label>
@@ -36,6 +79,7 @@
               <label class="product-removal">Remove</label>
               <label class="product-line-price">Total</label>
             </div>
+
 
             <div class="product" th:each="item : ${cart.cartItems}">
                 <div class="product-image">
@@ -47,10 +91,10 @@
                 </div>
                 <div class="product-price" th:text="${item.price}"></div>
                 <div class="product-quantity">
-                  <input id="product-quantity-input" type="number" th:value="${''+item.quantity}" min="1">
+                  <input id="product-quantity-input" th:data-itemid="${item.id}" type="number" th:value="${''+item.quantity}" min="1">
                 </div>
                 <div class="product-removal">
-                  <button class="remove-product">
+                  <button class="remove-product" th:value="${item.id}">
                     Remove
                   </button>
                 </div>
@@ -75,8 +119,9 @@
                 <div class="totals-value" id="cart-total">0</div>
               </div>
             </div>
-                <button type="submit" class="checkout">Checkout</button>
+                <a href="/getinvoice"><button type="submit" class="checkout">Checkout</button></a>
           </div>
+        </th:block>
         <div th:insert="fragments/footer :: footer"></div>
     </body>
 
