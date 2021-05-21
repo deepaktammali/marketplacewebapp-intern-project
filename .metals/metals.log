@@ -1599,3 +1599,15 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 [0m2021.05.21 08:18:25 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
 [0m2021.05.21 08:18:26 INFO  time: Imported build in 0.3s[0m
 [0m2021.05.21 08:18:28 INFO  time: indexed workspace in 2.31s[0m
+[0m2021.05.21 08:50:28 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.21 08:50:28 INFO  time: compiled marketplace in 0.18s[0m
+[0m2021.05.21 08:50:28 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+[0m2021.05.21 08:50:34 INFO  compiling marketplace (23 java sources)[0m
+[0m2021.05.21 08:50:34 INFO  time: compiled marketplace in 16ms[0m
+[0m2021.05.21 08:50:34 ERROR Unexpected error when compiling marketplace: 'invalid target release: 11'[0m
+May 21, 2021 11:31:36 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.05.21 11:34:16 INFO  shutting down Metals[0m
+[0m2021.05.21 11:34:16 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
