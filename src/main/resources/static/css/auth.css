@@ -1,0 +1,12 @@
+.hero-body{
+    padding:0;
+    height:fit-content;
+}
+
+.auth-form{
+    margin:0px;
+}
+
+.register-button:hover{
+    background:grey;
+}

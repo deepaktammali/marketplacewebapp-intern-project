@@ -1,0 +1,39 @@
+body{
+    box-sizing:border-box;
+    margin-top:5rem;
+    padding:0 3rem;
+}
+
+.navbar-item:hover{
+    cursor:pointer;
+}
+
+a .navbar-item:hover{
+    background:#1eae98;
+}
+
+#page-footer{
+    width:100%;
+    padding:2rem;
+    background:white;
+}
+
+.signin-button{
+    background:#088dff;
+    color:white;
+    font-weight:400;   
+}
+
+.signin-button:hover{
+    background:#0175d8;
+    color:white;
+}
+
+.signup-button{
+    font-weight:400;  
+} 
+
+.signup-button:hover{
+    background:grey;
+    color:white;
+}
