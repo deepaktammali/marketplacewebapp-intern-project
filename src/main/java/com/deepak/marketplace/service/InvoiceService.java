@@ -18,7 +18,9 @@ import com.itextpdf.html2pdf.HtmlConverter;
 
 import org.springframework.stereotype.Service;
 
+import com.deepak.marketplace.util.AddressUtil;
 import com.deepak.marketplace.util.InvoiceHTMLGenerator;
+import com.deepak.marketplace.model.Address;
 import com.deepak.marketplace.model.CartItem;
 
 @Service
@@ -49,12 +51,19 @@ public class InvoiceService {
     }
 
 
-    public static void generateInvoice(Vector<CartItem> cartItems,Long invoiceId) throws IOException{
+    public static void generateInvoice(Vector<CartItem> cartItems,Long invoiceId, HashMap<String,String> formData) throws IOException{
         
+
+        // {billingAddress,shippingAddress} importing address
+        Address[] addressList = AddressUtil.parseShippingAndBillingAddress(formData);
+        Address billingAddress = addressList[0];
+        Address shippingAddress = addressList[1];
+
+
         Map<String,Double> totalsMap = calculateTotals(cartItems);
         
         String cssPath = Paths.get("src/main/resources/static/invoice.css").toAbsolutePath().toString();
-        String invoiceHTML = InvoiceHTMLGenerator.generateInvoiceHTML(cartItems,cssPath,totalsMap);
+        String invoiceHTML = InvoiceHTMLGenerator.generateInvoiceHTML(cartItems,cssPath,totalsMap,billingAddress,shippingAddress);
         String invoicePDFPath = String.format("src/main/resources/invoices/invoice_%d.pdf", invoiceId);
         Path newInvoicePDFPath = Paths.get(invoicePDFPath);
         Files.createFile(newInvoicePDFPath);

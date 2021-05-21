@@ -66,7 +66,7 @@ public class InvoiceHTMLGenerator {
 				+ "      <tr>";
 		
 		billingShippingAddressString += generateAddressHTML(billingAddress,"BILL TO","bill_to_address");
-		billingShippingAddressString += generateAddressHTML(billingAddress,"SHIP TO","ship_to_address");
+		billingShippingAddressString += generateAddressHTML(shippingAddress,"SHIP TO","ship_to_address");
 		billingShippingAddressString += "</tr>\r\n"
 				+ "    </table>";
 		return billingShippingAddressString;
@@ -131,7 +131,7 @@ public class InvoiceHTMLGenerator {
 
 	
 //	TODO:need to change later
-	public static String generateInvoiceHTML(Vector<CartItem> cartItems,String cssPath,Map<String,Double> totalsMap) {
+	public static String generateInvoiceHTML(Vector<CartItem> cartItems,String cssPath,Map<String,Double> totalsMap, Address billingAddress, Address shippingAddress) {
 		;
 		String invoiceHeadingHTML = String.format("<!DOCTYPE html>\r\n"
 				+ "<html>\r\n"
@@ -144,9 +144,7 @@ public class InvoiceHTMLGenerator {
         String frescoLocation = "30 --//, Ramnagarxroads, Hyderabad, Pin : 50048";
         Address frescoAddress = new Address("Tammali Deepak","Fresco",frescoLocation,"04027645559","deepak@fresco.com");
 		
-		
-		Address addressPlaceholder = new Address("DEKU","MY ACADEMIA","U.A High school","1203120512","deku@myacademia.school");
-		
+
 		String invoiceHeading = generateInvoiceHeading("INVOICE");
 
         String pattern = "dd MMMM yyyy";
@@ -155,7 +153,7 @@ public class InvoiceHTMLGenerator {
 
 
 		String clientAddressInvoiceMetadata = generateClientAddressAndInvoiceDateIDHTML(frescoAddress,invoiceCreatedAt, "14135325213");
-		String shippingAndBillingAddress = generateShippingBillingAddressHTML(addressPlaceholder, addressPlaceholder);
+		String shippingAndBillingAddress = generateShippingBillingAddressHTML(shippingAddress, billingAddress);
 		String invoiceGoods = generateInvoiceGoodsTableHTML(cartItems);
 		String invoiceAddlData = generateAddlInvoiceDataTableHTML(totalsMap);
 		

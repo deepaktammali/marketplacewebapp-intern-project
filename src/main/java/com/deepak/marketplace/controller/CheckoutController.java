@@ -3,11 +3,14 @@ package com.deepak.marketplace.controller;
 import java.io.FileInputStream;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.HashMap;
 import java.util.Vector;
 
+import com.deepak.marketplace.model.Address;
 import com.deepak.marketplace.model.Cart;
 import com.deepak.marketplace.model.CartItem;
 import com.deepak.marketplace.service.InvoiceService;
+import com.deepak.marketplace.util.AddressUtil;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -17,8 +20,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
@@ -26,28 +33,24 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 @SessionAttributes({"cart","isLoggedIn"})
 public class CheckoutController {
 
-    private InvoiceService invoiceService;
     private SessionFactory sessionFactory;
 
     @Autowired
-    CheckoutController(InvoiceService invoiceService,SessionFactory sessionFactory){
-        this.invoiceService = invoiceService;
+    CheckoutController(SessionFactory sessionFactory){
         this.sessionFactory = sessionFactory;
     }
 
-
-
-    
-
-
-
-    @GetMapping(value="/getinvoice",produces = {MediaType.APPLICATION_PDF_VALUE})
+    @PostMapping(value="/getcompleteinvoice",
+    produces = {MediaType.APPLICATION_PDF_VALUE},
+    consumes={MediaType.APPLICATION_FORM_URLENCODED_VALUE})
     @ResponseBody
-    public ResponseEntity<byte[]> getInvoice(@ModelAttribute("cart") Cart cart){
+    public ResponseEntity<byte[]> getInvoice(@ModelAttribute("cart") Cart cart,@RequestParam HashMap<String,String> formData){
+        
+        
         Long invoiceId = InvoiceService.generateInvoiceId();
         try{
             Vector<CartItem> cartItems = (Vector<CartItem>)cart.getCartItems() ;
-            InvoiceService.generateInvoice(cartItems, invoiceId);
+            InvoiceService.generateInvoice(cartItems, invoiceId,formData);
 
             Session session  = sessionFactory.getCurrentSession();
             session.getTransaction().begin();
@@ -70,7 +73,7 @@ public class CheckoutController {
         }
         catch(Exception e){
             e.printStackTrace();
-            return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
