@@ -6,11 +6,9 @@ import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Vector;
 
-import com.deepak.marketplace.model.Address;
 import com.deepak.marketplace.model.Cart;
 import com.deepak.marketplace.model.CartItem;
-import com.deepak.marketplace.service.InvoiceService;
-import com.deepak.marketplace.util.AddressUtil;
+import com.deepak.marketplace.service.OrderService;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -20,37 +18,37 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.util.MultiValueMap;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.bind.support.SessionStatus;
 
 @Controller
 @SessionAttributes({"cart","isLoggedIn"})
 public class CheckoutController {
 
     private SessionFactory sessionFactory;
+    private OrderService orderService;
 
     @Autowired
-    CheckoutController(SessionFactory sessionFactory){
+    CheckoutController(SessionFactory sessionFactory,OrderService orderService){
         this.sessionFactory = sessionFactory;
+        this.orderService = orderService;
     }
 
     @PostMapping(value="/getcompleteinvoice",
     produces = {MediaType.APPLICATION_PDF_VALUE},
     consumes={MediaType.APPLICATION_FORM_URLENCODED_VALUE})
     @ResponseBody
-    public ResponseEntity<byte[]> getInvoice(@ModelAttribute("cart") Cart cart,@RequestParam HashMap<String,String> formData){
+    public ResponseEntity<byte[]> getInvoice(@ModelAttribute("cart") Cart cart,@RequestParam HashMap<String,String> formData,SessionStatus sessionStatus){
         
         
-        Long invoiceId = InvoiceService.generateInvoiceId();
+        Long invoiceId = orderService.generateInvoiceId();
         try{
             Vector<CartItem> cartItems = (Vector<CartItem>)cart.getCartItems() ;
-            InvoiceService.generateInvoice(cartItems, invoiceId,formData);
+            orderService.processOrder(cartItems, invoiceId,formData);
 
             Session session  = sessionFactory.getCurrentSession();
             session.getTransaction().begin();
@@ -69,6 +67,7 @@ public class CheckoutController {
                                                     .contentType(MediaType.APPLICATION_PDF)
                                                     .body(invoiceFileStream.readAllBytes());
             invoiceFileStream.close();
+            sessionStatus.setComplete();
             return response;
         }
         catch(Exception e){

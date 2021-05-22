@@ -14,7 +14,7 @@
 
                 <p class="title is-size-4">Billing Address</p>
 
-                <form class="addressform">
+                <form method="POST" action="/getcompleteinvoice" class="addressform">
                     <div class="field">
                         <label class="label">Name</label>
                         <div class="control">
@@ -51,7 +51,7 @@
                     </div>
 
                     <label class="checkbox py-5" id="sameaddresscheckbox">
-                        <input type="checkbox" >
+                        <input type="checkbox" name="isBillingAndShippingAddrSame" >
                         Shipping Address same as Billing Address
                     </label>
 
@@ -95,7 +95,7 @@
 
 
                     <footer class="modal__footer">
-                        <button class="modal__btn modal__btn-primary">Continue</button>
+                        <button type="submit" class="modal__btn modal__btn-primary">Continue</button>
                         <button class="modal__btn" data-micromodal-close
                             aria-label="Close this dialog window">Close</button>
                     </footer>

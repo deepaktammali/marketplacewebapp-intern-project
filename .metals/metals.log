@@ -1611,3 +1611,40 @@ INFO: Unsupported notification method: $/setTrace
 [0m2021.05.21 11:34:16 INFO  Shut down connection with build server.[0m
 No more data in the server stdin, exiting...
 No more data in the client stdin, exiting...
+[0m2021.05.21 15:32:27 INFO  Started: Metals version 0.10.3 in workspace 'C:\Users\VC\Desktop\marketplace' for client Visual Studio Code 1.56.2.[0m
+[0m2021.05.21 15:32:30 INFO  time: initialize in 3.57s[0m
+[0m2021.05.21 15:32:31 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 19465'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:19465...
+The server is listening for incoming connections at tcp://127.0.0.1:19465...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.21 15:32:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\VC\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.21 15:32:34 INFO  time: Connected to build server in 3.99s[0m
+[0m2021.05.21 15:32:34 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.05.21 15:32:35 INFO  time: Imported build in 0.39s[0m
+[0m2021.05.21 15:32:38 INFO  time: indexed workspace in 3.07s[0m
+May 21, 2021 3:32:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 21, 2021 3:33:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 21, 2021 3:33:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 21, 2021 3:34:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 21, 2021 3:34:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 21, 2021 3:34:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 21, 2021 3:35:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 21, 2021 3:35:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 21, 2021 3:35:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.05.21 15:35:29 INFO  shutting down Metals[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...

@@ -26,4 +26,8 @@ public class CartItem extends Item {
     public void decrementQuantity(){
         this.quantity -= 1;
     }
+
+    public Item getItem(){
+        return new Item(id,name,price,description,imageURL,category);
+    }
 }

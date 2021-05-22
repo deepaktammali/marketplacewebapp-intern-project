@@ -1,0 +1,25 @@
+<!DOCTYPE html >
+
+    <th:block th:insert="fragments/head::head(${pageTitle})"></th:block>
+    <!-- invoice search page css -->
+    <link rel="stylesheet" href="css/invoicesearch.css" />
+    
+</head>
+  <body>
+
+    <div th:insert="fragments/navbar :: navbar(${isLoggedIn})"></div>
+
+
+    <div class="searchbarcontainer">
+      <div class="invoicesearchbar field">
+        <label class="label">Invoice ID</label>
+        <div class="control">
+          <input class="input" type="number">
+        </div>
+      </div>
+    </div>
+
+
+    <div th:insert="fragments/footer :: footer"></div>
+  </body>
+</html>
