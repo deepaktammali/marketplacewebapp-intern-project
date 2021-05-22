@@ -29,6 +29,16 @@ public class AuthController {
         this.authService = authService;
     }
 
+    @ModelAttribute("user")
+    public User user(){
+        return null;
+    }
+
+    @ModelAttribute("isLoggedIn")
+    public boolean isLoggedIn(){
+        return false;
+    }
+
     @GetMapping("/signin")
     public String getSignIn(){
         return "login";

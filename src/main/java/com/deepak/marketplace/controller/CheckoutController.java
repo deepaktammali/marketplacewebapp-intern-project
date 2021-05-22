@@ -8,6 +8,7 @@ import java.util.Vector;
 
 import com.deepak.marketplace.model.Cart;
 import com.deepak.marketplace.model.CartItem;
+import com.deepak.marketplace.model.User;
 import com.deepak.marketplace.service.OrderService;
 
 import org.hibernate.Session;
@@ -29,6 +30,9 @@ import org.springframework.web.bind.support.SessionStatus;
 @SessionAttributes({"cart","isLoggedIn"})
 public class CheckoutController {
 
+
+
+
     private SessionFactory sessionFactory;
     private OrderService orderService;
 
@@ -36,6 +40,16 @@ public class CheckoutController {
     CheckoutController(SessionFactory sessionFactory,OrderService orderService){
         this.sessionFactory = sessionFactory;
         this.orderService = orderService;
+    }
+
+    @ModelAttribute("user")
+    public User user(){
+        return null;
+    }
+
+    @ModelAttribute("isLoggedIn")
+    public boolean isLoggedIn(){
+        return false;
     }
 
     @PostMapping(value="/getcompleteinvoice",
@@ -46,6 +60,7 @@ public class CheckoutController {
         
         
         Long invoiceId = orderService.generateInvoiceId();
+        System.out.println("Invoice Id "+invoiceId);
         try{
             Vector<CartItem> cartItems = (Vector<CartItem>)cart.getCartItems() ;
             orderService.processOrder(cartItems, invoiceId,formData);

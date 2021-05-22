@@ -43,9 +43,9 @@ public class OrderService {
 
 
 
-    public Long generateInvoiceId(){
+    public long generateInvoiceId(){
         Random rd = new Random();
-        return Math.abs(rd.nextLong());
+        return Math.abs(rd.nextInt(2147483647));
     }
 
     public Map<String,Double> calculateTotals(Vector<CartItem> cartItems){
@@ -67,6 +67,8 @@ public class OrderService {
 
     public void persistOrderToDB(Vector<CartItem> cartItems,Long invoiceId, Address billingAddress,Address shippingAddress,boolean sameShipAndBillAddr){
 
+        System.out.println("OrderId "+invoiceId);
+
         // get session and start transaction
         Session session = sessionFactory.getCurrentSession();
         Transaction transaction = session.getTransaction();
@@ -81,6 +83,8 @@ public class OrderService {
                 .collect(Collectors.toList());
         newOrder.setOrderItems(orderItems);
         newOrder.setId(invoiceId);
+
+        System.out.println("SAVED ID : "+newOrder.getId());
 
         if(sameShipAndBillAddr){
             session.save(billingAddress);
@@ -105,7 +109,7 @@ public class OrderService {
         Map<String,Double> totalsMap = calculateTotals(cartItems);
         
         String cssPath = Paths.get("src/main/resources/static/invoice.css").toAbsolutePath().toString();
-        String invoiceHTML = InvoiceHTMLGenerator.generateInvoiceHTML(cartItems,cssPath,totalsMap,billingAddress,shippingAddress);
+        String invoiceHTML = InvoiceHTMLGenerator.generateInvoiceHTML(cartItems,invoiceId,cssPath,totalsMap,billingAddress,shippingAddress);
         String invoicePDFPath = String.format("src/main/resources/invoices/invoice_%d.pdf", invoiceId);
         Path newInvoicePDFPath = Paths.get(invoicePDFPath);
         Files.createFile(newInvoicePDFPath);

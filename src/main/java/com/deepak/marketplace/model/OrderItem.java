@@ -17,7 +17,7 @@ import lombok.AllArgsConstructor;
 public class OrderItem {
     @Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	Integer id;
+	Long id;
 	@ManyToOne
 	Order order;
 	@ManyToOne

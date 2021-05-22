@@ -22,8 +22,22 @@
       </div>
     </form>
 
-    <th:block>
+    <th:block th:switch="${showSearchResults}">
+          <th:block th:case="true">
+                <div class="ordercard">
+                    <div th:text="${order.id}"></div>
+                    <div th:text="${order.createdAt}"></div>
+                    <div th:text="${order.billingAddress.contactName}"></div>
+                    <div th:text="${order.shippingAddress.contactName}"></div>
+                    <a th:href="${'/invoicesearch/'+order.id}"><button class="button is-primary is-light">Get Invoice</button></a>
+                </div>
+          </th:block>
+    </th:block>
 
+    <th:block th:switch="${hasErrors}">
+        <div class="errorcontainer" th:case="true">
+            <div class="is-size-4" th:text="${errorMessage}"></div>
+        </div>
     </th:block>
 
 

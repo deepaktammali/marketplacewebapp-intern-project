@@ -19,14 +19,14 @@ public class InvoiceHTMLGenerator {
 		return invoiceHeadingTable;
 	}
 	
-	private static String generateInvoiceDateAndIdHTML(String invoiceDate,String invoiceID) {
+	private static String generateInvoiceDateAndIdHTML(String invoiceDate,Long invoiceId) {
 		String invoiceDateIdHTML = "<td width=\"50%\">\r\n";
 				
 		invoiceDateIdHTML += String.format("<section class=\"invoice_date_id\">\r\n"
 				+ "            <p class=\"invoice_date\" >%s</p>\r\n"
-				+ "            <p class=\"invoice_id\">%s</p>\r\n"
+				+ "            <p class=\"invoice_id\">%d</p>\r\n"
 				+ "          </section>\r\n"
-				+ "        </td>",invoiceDate,invoiceID);
+				+ "        </td>",invoiceDate,invoiceId);
 		return invoiceDateIdHTML;
 	}
 	
@@ -34,11 +34,11 @@ public class InvoiceHTMLGenerator {
 		return generateAddressHTML(clientAddress, "CLIENT", "client_address");
 	}
 	
-	private static String generateClientAddressAndInvoiceDateIDHTML(Address clientAddress,String invoiceDate,String invoiceID) {
+	private static String generateClientAddressAndInvoiceDateIDHTML(Address clientAddress,String invoiceDate,Long invoiceId) {
 		String addressInvoiceMetadataHTML = "<table class=\"client_address_invoice_metadata_table\">\r\n"
 				+ "      <tr>";
 		addressInvoiceMetadataHTML += generateClientAddressHTML(clientAddress);
-		addressInvoiceMetadataHTML += generateInvoiceDateAndIdHTML(invoiceDate, invoiceID);
+		addressInvoiceMetadataHTML += generateInvoiceDateAndIdHTML(invoiceDate, invoiceId);
 		addressInvoiceMetadataHTML += "</tr>\r\n"
 				+ "    </table>";
 		
@@ -131,7 +131,7 @@ public class InvoiceHTMLGenerator {
 
 	
 //	TODO:need to change later
-	public static String generateInvoiceHTML(Vector<CartItem> cartItems,String cssPath,Map<String,Double> totalsMap, Address billingAddress, Address shippingAddress) {
+	public static String generateInvoiceHTML(Vector<CartItem> cartItems,Long invoiceId, String cssPath,Map<String,Double> totalsMap, Address billingAddress, Address shippingAddress) {
 		;
 		String invoiceHeadingHTML = String.format("<!DOCTYPE html>\r\n"
 				+ "<html>\r\n"
@@ -152,7 +152,7 @@ public class InvoiceHTMLGenerator {
         String invoiceCreatedAt = simpleDateFormat.format(new Date(System.currentTimeMillis()));
 
 
-		String clientAddressInvoiceMetadata = generateClientAddressAndInvoiceDateIDHTML(frescoAddress,invoiceCreatedAt, "14135325213");
+		String clientAddressInvoiceMetadata = generateClientAddressAndInvoiceDateIDHTML(frescoAddress,invoiceCreatedAt, invoiceId);
 		String shippingAndBillingAddress = generateShippingBillingAddressHTML(shippingAddress, billingAddress);
 		String invoiceGoods = generateInvoiceGoodsTableHTML(cartItems);
 		String invoiceAddlData = generateAddlInvoiceDataTableHTML(totalsMap);
