@@ -10,14 +10,21 @@
     <div th:insert="fragments/navbar :: navbar(${isLoggedIn})"></div>
 
 
-    <div class="searchbarcontainer">
-      <div class="invoicesearchbar field">
-        <label class="label">Invoice ID</label>
-        <div class="control">
-          <input class="input" type="number">
+    <form action="/invoicesearch" method="POST" >
+      <div class="searchbarcontainer">
+        <div class="invoicesearchbar field">
+          <label class="label">Invoice ID</label>
+          <div class="control">
+            <input name="invoiceid" class="input" type="number">
+          </div>
         </div>
+        <button type="submit" class="button is-primary is-light findbutton">Find</button>
       </div>
-    </div>
+    </form>
+
+    <th:block>
+
+    </th:block>
 
 
     <div th:insert="fragments/footer :: footer"></div>

@@ -1,10 +1,20 @@
 .searchbarcontainer{
     display:flex;
     justify-content:center;
+    align-items:flex-end;
 }
 
 .invoicesearchbar{
     width:50%;
     min-width:20rem;
+}
+
+.field:not(:last-child) {
+    margin-bottom:0;
+}
+
+.findbutton{
+    margin-left:0.5rem;
+    width:6rem;
 }
 
