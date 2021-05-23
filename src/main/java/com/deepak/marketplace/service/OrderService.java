@@ -23,7 +23,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.deepak.marketplace.util.AddressUtil;
+import com.deepak.marketplace.util.InvoiceEmail;
 import com.deepak.marketplace.util.InvoiceHTMLGenerator;
+import com.deepak.marketplace.util.InvoiceSMS;
 import com.deepak.marketplace.model.Address;
 import com.deepak.marketplace.model.CartItem;
 import com.deepak.marketplace.model.Order;
@@ -116,13 +118,10 @@ public class OrderService {
         HtmlConverter.convertToPdf(invoiceHTML, new FileOutputStream(invoicePDFPath));
     }
 
-    public void sendMessage(){
-
+    public void sendMessage(Address billingAddress){
+        InvoiceSMS.sendMessage();
     }
 
-    public void sendEmail(){
-
-    }
 
     public void processOrder(Vector<CartItem> cartItems,Long invoiceId, HashMap<String,String> formData) throws IOException{
 
@@ -135,5 +134,7 @@ public class OrderService {
         persistOrderToDB(cartItems, invoiceId, billingAddress, shippingAddress, sameShipAndBillAddr);
         generateInvoice(cartItems, invoiceId, billingAddress, shippingAddress);
 
+        // email and message
+        InvoiceEmail.sendEmail(invoiceId,billingAddress);
     }
 }

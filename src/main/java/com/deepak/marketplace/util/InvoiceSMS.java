@@ -12,7 +12,7 @@ import com.twilio.rest.api.v2010.account.Message;
 import com.twilio.type.PhoneNumber;
 
 public class InvoiceSMS {
-    public static void sendInvoiceMessage(){
+    public static void sendMessage(){
 
         Path mailEnvFilePath = Paths.get("src\\main\\resources\\properties\\smsenv.properties");
 
