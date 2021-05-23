@@ -5,6 +5,7 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import java.sql.Date;
+import java.text.DateFormat;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -25,7 +26,7 @@ public class Order {
     @Id
 	Long id;
 	@Column(name = "createdAt")
-	String createdAt = new Date(System.currentTimeMillis()).toString() ;
+	String createdAt = new Date(System.currentTimeMillis()).toLocaleString();
 	@ManyToOne
 	Address billingAddress;
 	@ManyToOne(fetch = FetchType.LAZY)
