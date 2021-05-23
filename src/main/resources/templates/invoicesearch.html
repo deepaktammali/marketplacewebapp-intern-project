@@ -1,42 +1,148 @@
 <!DOCTYPE html >
 
     <th:block th:insert="fragments/head::head(${pageTitle})"></th:block>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
     <!-- invoice search page css -->
     <link rel="stylesheet" href="css/invoicesearch.css" />
-    
-</head>
+    <script defer src="js/invoicesearch.js"></script>
+
+  </head>
   <body>
 
     <div th:insert="fragments/navbar :: navbar(${isLoggedIn})"></div>
 
+
+    <!-- Search by Invoice Id Form -->
 
     <form action="/invoicesearch" method="POST" >
       <div class="searchbarcontainer">
         <div class="invoicesearchbar field">
           <label class="label">Invoice ID</label>
           <div class="control">
-            <input name="invoiceid" class="input" type="number">
+            <input name="invoiceid" class="input" type="number" required>
           </div>
         </div>
         <button type="submit" class="button is-primary is-light findbutton">Find</button>
       </div>
     </form>
 
+    <!-- Search by Contact Name Form -->
+    <!-- <div class="title is-size-5">OR</div>
+
+    <form action="/invoicesearch" method="POST" >
+      <div class="searchbarcontainer">
+        <div class="invoicesearchbar field">
+          <label class="label">Invoice Contact Name</label>
+          <div class="control">
+            <input name="invoiceContactName" class="input" type="text">
+          </div>
+        </div>
+        <button type="submit" class="button is-primary is-light findbutton">Find</button>
+      </div>
+    </form> -->
+
+    <!-- results space -->
+
     <th:block th:switch="${showSearchResults}">
           <th:block th:case="true">
-                <div class="ordercard">
-                    <div th:text="${order.id}"></div>
-                    <div th:text="${order.createdAt}"></div>
-                    <div th:text="${order.billingAddress.contactName}"></div>
-                    <div th:text="${order.shippingAddress.contactName}"></div>
-                    <a th:href="${'/invoicesearch/'+order.id}"><button class="button is-primary is-light">Get Invoice</button></a>
+
+            <!-- card -->
+                <div class="card result-card">
+                  <div class="card-content">
+                    <div class="content">
+                      <div class="order-result-heading">
+                        <p class="title is-size-4"><span>Invoice Id : </span><span class="has-text-weight-normal" th:text="${order.id}"></span> </p>
+                        <p class="title is-size-6"><span >Created At : </span><span class="has-text-weight-normal" th:text="${order.createdAt}"></span> </p>
+                        <a class="get-invoice-link" th:href="${'/invoicesearch/'+order.id}"><button class="button is-primary is-light get-invoice-button">Get Invoice PDF</button></a>
+                      </div>
+                      <!-- accordion -->
+                      <div class="accordion invoicedata">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                              Billing Address
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                              <div class="order-address"  th:object=${order.billingAddress}>
+                                <p th:text="*{contactName}" ></p>
+                                <p th:text="*{companyName}"></p>
+                                <p th:text="*{companyAddress}"></li>
+                                <p th:text="*{'Phone : '+phoneNumber}"></li>
+                                <p th:text="*{'Email : '+emailAddress}"></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                              Shipping Address
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+
+                              <div class="order-address"  th:object=${order.shippingAddress}>
+                                <p th:text="*{contactName}" ></p>
+                                <p th:text="*{companyName}"></p>
+                                <p th:text="*{companyAddress}"></li>
+                                <p th:text="*{'Phone : '+phoneNumber}"></li>
+                                <p th:text="*{'Email : '+emailAddress}"></p>
+                              </div>
+                            
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                              Ordered Items
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                              <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Quantity</th>
+                                    <th scope="col">Price</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr class="table-light" th:each="orderItem:${order.orderItems}">
+                                    <td th:text="${orderItem.item.name}"></td>
+                                    <td th:text="${orderItem.quantity}">Otto</td>
+                                    <td th:text="${orderItem.item.price}">@mdo</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <!-- accordion -->
+
+                    </div>
+                  </div>
                 </div>
           </th:block>
     </th:block>
 
     <th:block th:switch="${hasErrors}">
         <div class="errorcontainer" th:case="true">
-            <div class="is-size-4" th:text="${errorMessage}"></div>
+              <img id="order_not_found_img" loading="lazy" src="images/404.webp" alt="order not found image" />
+              <p class="title is-size-3" th:text="${errorMessage}"></p>
+              <p class="title is-size-5">Explore our products and create some orders</p>
+              <a href="/"><button class="explore-button button">Explore</button></a>
         </div>
     </th:block>
 

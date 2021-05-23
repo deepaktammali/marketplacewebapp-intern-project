@@ -16,7 +16,7 @@
     <div class="items-tile">
         <div class="card" style="box-shadow: none;" th:each="product:${products}">
             <div class="card-image">
-                    <img th:src="${product.imageURL}">
+                    <img loading="lazy" th:alt="${product.name+' image'}" th:src="${product.imageURL}">
               </div>        
             <div class="card-content">
               <div class="content">

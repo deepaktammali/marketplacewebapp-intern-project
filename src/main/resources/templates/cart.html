@@ -27,7 +27,7 @@
 
   <th:block th:switch="${isCartEmpty}">
     <div class="empty-cart" th:case="true">
-      <img id="empty_cart_img" src="images/no_orders.webp" alt="empty_cart_img" />
+      <img id="empty_cart_img" loading="lazy" src="images/no_orders.webp" alt="empty_cart_img" />
       <p class="title is-size-3">Your cart is empty</p>
       <p class="title is-size-5">Explore our products</p>
       <a href="/"><button class="explore-button button">Explore</button></a>

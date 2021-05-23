@@ -49,7 +49,7 @@ public class InvoiceSearchController {
 
     @GetMapping
     public String getInvoiceSearchPage(Model model) {
-        model.addAttribute("pageTitle", "Search For Invoices");
+        model.addAttribute("pageTitle", "Search For Invoice");
         return "invoicesearch";
     }
 

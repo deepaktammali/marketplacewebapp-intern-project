@@ -29,3 +29,51 @@
     justify-content:center;
     color:red;
 }
+
+.order-result-heading{
+    text-align:center;
+}
+
+.result-card{
+    margin-top:1rem;
+}
+
+.get-invoice-link{
+    text-decoration:none;
+}
+
+.get-invoice-button{
+    margin-bottom:1rem;
+}
+
+.{
+
+}
+
+
+
+  .errorcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #order_not_found_img{
+    width: 20rem;
+    height: auto;
+  }
+
+  .explore-button{
+    background:#088dff;
+    color:white;
+  }
+
+  .explore-button:hover{
+    background:#0089fe;
+    transform:scale(1.1);
+  }
+
+  .explore-button:first-child{
+    text-decoration: none;
+    color:white;
+  }
