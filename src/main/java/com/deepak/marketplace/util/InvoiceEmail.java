@@ -47,7 +47,7 @@ public class InvoiceEmail {
 			String dueDate = new Date(System.currentTimeMillis()+(int)6.048e+8).toString();
 			String mailSubject = String.format("Invoice for Products from Fresco due %s",dueDate);
 			message.setSubject(mailSubject);
-			message.setRecipient(RecipientType.TO, new InternetAddress("121004258@sastra.ac.in"));
+			message.setRecipient(RecipientType.TO, new InternetAddress(billingAddress.getEmailAddress()));
 
 		// setting attachment
 			// create the message body part
