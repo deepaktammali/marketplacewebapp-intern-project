@@ -8,7 +8,22 @@
                 <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
             </header>
             <main class="modal__content" id="modal-1-content">
-                <!-- address form -->
+
+                <th:block th:switch="${isLoggedIn}">
+                    <th:block th:case="false">
+
+                        <p class="has-text-weight-light mb-5">OOPS! You need to login to checkout!</p>
+
+                        <a class="modal__footer">
+                            <a href="/signin"><button type="submit" class="modal__btn modal__btn-primary login_button">Login</button></a>
+                            <button class="modal__btn closemodal_button" data-micromodal-close
+                                aria-label="Close this dialog window">Close</button>
+                        </footer>
+    
+                    </th:block>
+                    <th:block th:case="true">
+
+                    <!-- address form -->
 
                 <!-- Billing -->
 
@@ -103,6 +118,12 @@
 
                 <!-- address form -->
 
+                        
+                    </th:block>
+                </th:block>
+
+
+                
             </main>
 
         </div>

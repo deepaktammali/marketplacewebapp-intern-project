@@ -7,7 +7,6 @@ import javax.websocket.server.PathParam;
 
 import com.deepak.marketplace.model.Cart;
 import com.deepak.marketplace.model.CartItem;
-import com.deepak.marketplace.model.Item;
 import com.deepak.marketplace.model.User;
 import com.deepak.marketplace.repository.ItemHibernateRepository;
 

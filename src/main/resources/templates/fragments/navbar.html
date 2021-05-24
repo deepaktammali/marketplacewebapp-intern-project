@@ -31,14 +31,14 @@
                 Add Product
             </a>
         </th:block>
-        <!-- <th:block th:switch="${isLoggedIn}">
-            <a th:case="true" class="navbar-item" href="/invoicesearch">
-                Search Invoices
+  
+        <th:block th:switch="${isLoggedIn}">
+          <th:block th:case="true">
+            <a class="navbar-item" href="/invoicesearch">
+              Search Invoices
             </a>
-        </th:block> -->
-        <a class="navbar-item" href="/invoicesearch">
-          Search Invoices
-        </a>
+          </th:block>
+        </th:block>
 
         <a class="navbar-item" href="/cart">
             Cart
@@ -66,4 +66,3 @@
       </div>
     </div>
   </nav>
-

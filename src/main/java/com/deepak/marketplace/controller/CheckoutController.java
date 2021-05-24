@@ -30,9 +30,6 @@ import org.springframework.web.bind.support.SessionStatus;
 @SessionAttributes({"cart","isLoggedIn"})
 public class CheckoutController {
 
-
-
-
     private SessionFactory sessionFactory;
     private OrderService orderService;
 

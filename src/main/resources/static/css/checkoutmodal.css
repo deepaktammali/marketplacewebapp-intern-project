@@ -92,6 +92,15 @@
     background-color: #00449e;
     color: #fff;
   }
+
+  .login_button{
+    margin-right:1rem;
+  }
+
+  .login_button:hover{
+    transform:scale(1.1);
+    background-color: #005fff;
+  }
   
   
   
