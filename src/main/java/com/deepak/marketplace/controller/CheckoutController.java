@@ -55,7 +55,6 @@ public class CheckoutController {
     @ResponseBody
     public ResponseEntity<byte[]> getInvoice(@ModelAttribute("cart") Cart cart,@RequestParam HashMap<String,String> formData,SessionStatus sessionStatus){
         
-        
         Long invoiceId = orderService.generateInvoiceId();
         System.out.println("Invoice Id "+invoiceId);
         try{
