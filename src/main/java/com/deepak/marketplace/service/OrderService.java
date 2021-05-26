@@ -1,7 +1,5 @@
 package com.deepak.marketplace.service;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -12,6 +10,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 import java.util.Vector;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadPoolExecutor;
 import java.util.stream.Collectors;
 
 import com.itextpdf.html2pdf.HtmlConverter;
@@ -107,9 +108,8 @@ public class OrderService {
     }
 
 
-    public void generateInvoice(Vector<CartItem> cartItems,Long invoiceId, Address billingAddress,Address shippingAddress) throws IOException{
-        Map<String,Double> totalsMap = calculateTotals(cartItems);
-        
+    public void generateInvoice(Vector<CartItem> cartItems,Long invoiceId, Address billingAddress,Address shippingAddress, Map<String, Double> totalsMap) throws IOException{
+  
         String cssPath = Paths.get("src/main/resources/static/invoice.css").toAbsolutePath().toString();
         String invoiceHTML = InvoiceHTMLGenerator.generateInvoiceHTML(cartItems,invoiceId,cssPath,totalsMap,billingAddress,shippingAddress);
         String invoicePDFPath = String.format("src/main/resources/invoices/invoice_%d.pdf", invoiceId);
@@ -118,12 +118,13 @@ public class OrderService {
         HtmlConverter.convertToPdf(invoiceHTML, new FileOutputStream(invoicePDFPath));
     }
 
-    public void sendMessage(Address billingAddress){
-        InvoiceSMS.sendMessage();
-    }
-
 
     public void processOrder(Vector<CartItem> cartItems,Long invoiceId, HashMap<String,String> formData) throws IOException{
+
+        ExecutorService threadPool = Executors.newFixedThreadPool(2);
+
+        // bill totals 
+        Map<String,Double> totalsMap = calculateTotals(cartItems);
 
         // {billingAddress,shippingAddress} importing address
         Address[] addressList = AddressUtil.parseShippingAndBillingAddress(formData);
@@ -132,9 +133,26 @@ public class OrderService {
 
         boolean sameShipAndBillAddr = formData.containsKey("isBillingAndShippingAddrSame");
         persistOrderToDB(cartItems, invoiceId, billingAddress, shippingAddress, sameShipAndBillAddr);
-        generateInvoice(cartItems, invoiceId, billingAddress, shippingAddress);
+        generateInvoice(cartItems, invoiceId, billingAddress, shippingAddress,totalsMap);
 
         // email and message
-        InvoiceEmail.sendEmail(invoiceId,billingAddress);
+
+        threadPool.execute(new Runnable(){
+
+            @Override
+            public void run() {
+                InvoiceEmail.sendEmail(invoiceId,billingAddress);
+            }
+            
+        });
+
+        threadPool.execute(new Runnable(){
+
+            @Override
+            public void run() {
+                InvoiceSMS.sendMessage(invoiceId,billingAddress,totalsMap.get("grandTotal"));
+            }
+        });
+
     }
 }

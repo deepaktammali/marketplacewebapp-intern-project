@@ -31,7 +31,7 @@ public class InvoiceHTMLGenerator {
 	}
 	
 	private static String generateClientAddressHTML(Address clientAddress) {
-		return generateAddressHTML(clientAddress, "CLIENT", "client_address");
+		return generateAddressHTML(clientAddress, "INVOICE FROM", "client_address");
 	}
 	
 	private static String generateClientAddressAndInvoiceDateIDHTML(Address clientAddress,String invoiceDate,Long invoiceId) {
