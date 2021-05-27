@@ -9,8 +9,8 @@ public class AuthInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
             throws Exception {
-                System.out.println(request.getSession().getAttribute("isLoggedIn"));
-                Boolean isLoggedIn = (Boolean)request.getSession().getAttribute("isLoggedIn");
+                System.out.println(request.getSession().getAttribute("isAdmin"));
+                Boolean isLoggedIn = (Boolean)request.getSession().getAttribute("isAdmin");
                 if(isLoggedIn!=null & isLoggedIn==true){
                     return true;
                 }

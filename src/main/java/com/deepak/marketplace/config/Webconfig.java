@@ -12,7 +12,7 @@ public class Webconfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        String authInterceptionPaths[] = new String[]{"/getcompleteinvoice","/addproduct","/invoicesearch"};
+        String authInterceptionPaths[] = new String[]{"/getcompleteinvoice","/addproduct","/invoicesearch","/addadmin"};
         registry.addInterceptor(new AuthInterceptor()).addPathPatterns(authInterceptionPaths);
     }
 
