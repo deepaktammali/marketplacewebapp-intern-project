@@ -4,4 +4,5 @@ import com.deepak.marketplace.model.User;
 
 public interface UserRepositoryCustom{
     public User findByUsername(String username);
+    public User makeUserAdmin(Long id);
 }

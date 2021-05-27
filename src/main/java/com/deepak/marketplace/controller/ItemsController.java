@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 
 @Controller
 @RequestMapping("/")
-@SessionAttributes({"user","isLoggedIn"})
+@SessionAttributes({"user","isLoggedIn","isAdmin"})
 public class ItemsController {
     
     private ItemHibernateRepository itemRepository;
@@ -35,6 +35,11 @@ public class ItemsController {
 
     @ModelAttribute("isLoggedIn")
     public boolean isLoggedIn(){
+        return false;
+    }
+
+    @ModelAttribute("isAdmin")
+    public boolean isAdmin(){
         return false;
     }
 

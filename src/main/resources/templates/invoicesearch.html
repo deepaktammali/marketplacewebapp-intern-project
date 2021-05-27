@@ -10,7 +10,7 @@
 
 <body>
 
-  <th:block th:insert="fragments/navbar :: navbar(${isLoggedIn})"></th:block>
+  <div th:insert="fragments/navbar :: navbar(${isLoggedIn},${isAdmin})"></div>
 
 
   <!-- Search by Invoice Id Form -->

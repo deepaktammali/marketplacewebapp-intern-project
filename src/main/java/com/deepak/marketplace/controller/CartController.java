@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 @Controller
-@SessionAttributes({"cart","isLoggedIn"})
+@SessionAttributes({"cart","isLoggedIn","isAdmin"})
 public class CartController {
 
     private ItemHibernateRepository itemRepository;
@@ -42,6 +42,11 @@ public class CartController {
 
     @ModelAttribute("isLoggedIn")
     public boolean isLoggedIn(){
+        return false;
+    }
+
+    @ModelAttribute("isAdmin")
+    public boolean isAdmin(){
         return false;
     }
 

@@ -1,0 +1,71 @@
+<nav class="navbar" role="navigation" aria-label="main navigation" th:fragment="navbar1(isLoggedIn,isAdmin)">
+    <div class="navbar-brand">
+      <p class="navbar-item title m-0" style="font-family: 'Roboto Mono', monospace">
+        Fresco
+      </p>
+  
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="/">
+          Home
+        </a>
+        <a class="navbar-item" href="/vegetables">
+            Vegetables
+        </a>
+        <a class="navbar-item" href="/fruits">
+            Fruits
+        </a>
+        <a class="navbar-item" href="/pantry">
+            Pantry
+        </a>
+        <th:block th:switch="${isAdmin}">
+            <a th:case="true" class="navbar-item" href="/addproduct">
+                Add Product
+            </a>
+        </th:block>
+  
+        <th:block th:switch="${isAdmin}">
+          <th:block th:case="true">
+            <a class="navbar-item" href="/invoicesearch">
+              Search Invoices
+            </a>
+            <a class="navbar-item" href="/addadmin">
+                Add Admin
+              </a>
+          </th:block>
+        </th:block>
+
+        <a class="navbar-item" href="/cart">
+            Cart
+        </a>
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <th:block th:switch="${isLoggedIn}">
+                <th:block th:case="false">
+                    <a class="button is-light signup-button" href="/register">
+                        Register
+                      </a>
+                    <a class="button signin-button" href="/signin">
+                        Login
+                    </a>
+                </th:block>
+                <a th:case="true" class="button is-light" href="/signout">
+                    Logout
+                </a>
+            </th:block>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>

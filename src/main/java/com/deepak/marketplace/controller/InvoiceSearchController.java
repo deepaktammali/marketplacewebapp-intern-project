@@ -27,7 +27,7 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 
 @Controller
 @RequestMapping("/invoicesearch")
-@SessionAttributes({"cart","isLoggedIn"})
+@SessionAttributes({"cart","isLoggedIn","isAdmin"})
 public class InvoiceSearchController {
 
     private OrderHibernateRepository orderRepository;
@@ -46,6 +46,7 @@ public class InvoiceSearchController {
     public boolean isLoggedIn(){
         return false;
     }
+
 
     @GetMapping
     public String getInvoiceSearchPage(Model model) {
@@ -112,4 +113,8 @@ public class InvoiceSearchController {
         return null;
     }
 
+    @ModelAttribute("isAdmin")
+    public boolean isAdmin(){
+        return false;
+    }
 }

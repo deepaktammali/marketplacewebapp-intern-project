@@ -11,7 +11,7 @@
 
 <body>
 
-    <div th:insert="fragments/navbar :: navbar(${isLoggedIn})"></div>
+  <div th:insert="fragments/navbar :: navbar(${isLoggedIn},${isAdmin})"></div>
     <h1 class="title is-4 mt-5 ml-4" th:text="${pageTitle}"></h1>
     <div class="items-tile">
         <div class="card" style="box-shadow: none;" th:each="product:${products}">

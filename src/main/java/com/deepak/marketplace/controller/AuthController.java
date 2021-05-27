@@ -19,7 +19,7 @@ import org.springframework.web.bind.support.SessionStatus;
 
 @Controller
 @RequestMapping("/")
-@SessionAttributes({"user","isLoggedIn"})
+@SessionAttributes({"user","isLoggedIn","isAdmin"})
 public class AuthController {
 
     private AuthService authService;
@@ -36,6 +36,11 @@ public class AuthController {
 
     @ModelAttribute("isLoggedIn")
     public boolean isLoggedIn(){
+        return false;
+    }
+
+    @ModelAttribute("isAdmin")
+    public boolean isAdmin(){
         return false;
     }
 
@@ -56,6 +61,7 @@ public class AuthController {
             if(user!=null){
                 model.addAttribute("user",user);
                 model.addAttribute("isLoggedIn", true);
+                model.addAttribute("isAdmin", user.getFlag().equals("admin"));
                 return "redirect:/";
             }
         }

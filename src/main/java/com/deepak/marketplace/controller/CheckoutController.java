@@ -27,7 +27,7 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 
 @Controller
-@SessionAttributes({"cart","isLoggedIn"})
+@SessionAttributes({"cart","isLoggedIn","isAdmin"})
 public class CheckoutController {
 
     private SessionFactory sessionFactory;
@@ -46,6 +46,11 @@ public class CheckoutController {
 
     @ModelAttribute("isLoggedIn")
     public boolean isLoggedIn(){
+        return false;
+    }
+
+    @ModelAttribute("isAdmin")
+    public boolean isAdmin(){
         return false;
     }
 

@@ -22,7 +22,8 @@
 </head>
 
 <body>
-  <div th:insert="fragments/navbar :: navbar(${isLoggedIn})"></div>
+  <div th:insert="fragments/navbar :: navbar(${isLoggedIn},${isAdmin})"></div>
+  
   <h1 class="title is-4 mt-5 ml-4">Shopping Cart</h1>
 
   <th:block th:switch="${isCartEmpty}">
