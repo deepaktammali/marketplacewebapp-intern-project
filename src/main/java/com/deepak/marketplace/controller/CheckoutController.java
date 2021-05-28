@@ -3,6 +3,7 @@ package com.deepak.marketplace.controller;
 import java.io.FileInputStream;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Vector;
 
@@ -19,6 +20,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -54,16 +56,21 @@ public class CheckoutController {
         return false;
     }
 
+    @ModelAttribute("cart")
+    public Cart getCart(){
+        return new Cart();
+    }
+
     @PostMapping(value="/getcompleteinvoice",
     produces = {MediaType.APPLICATION_PDF_VALUE},
     consumes={MediaType.APPLICATION_FORM_URLENCODED_VALUE})
     @ResponseBody
-    public ResponseEntity<byte[]> getInvoice(@ModelAttribute("cart") Cart cart,@RequestParam HashMap<String,String> formData,SessionStatus sessionStatus){
+    public ResponseEntity<byte[]> getInvoice(@ModelAttribute("cart") Cart cart,@RequestParam HashMap<String,String> formData,SessionStatus sessionStatus,Model model){
         
         Long invoiceId = orderService.generateInvoiceId();
         System.out.println("Invoice Id "+invoiceId);
         try{
-            Vector<CartItem> cartItems = (Vector<CartItem>)cart.getCartItems() ;
+            ArrayList<CartItem> cartItems = (ArrayList<CartItem>)cart.getCartItems() ;
             orderService.processOrder(cartItems, invoiceId,formData);
 
             Session session  = sessionFactory.getCurrentSession();
@@ -83,7 +90,7 @@ public class CheckoutController {
                                                     .contentType(MediaType.APPLICATION_PDF)
                                                     .body(invoiceFileStream.readAllBytes());
             invoiceFileStream.close();
-            sessionStatus.setComplete();
+            model.addAttribute("cart", getCart());
             return response;
         }
         catch(Exception e){

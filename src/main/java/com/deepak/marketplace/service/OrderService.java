@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -51,7 +52,7 @@ public class OrderService {
         return Math.abs(rd.nextInt(2147483647));
     }
 
-    public Map<String,Double> calculateTotals(Vector<CartItem> cartItems){
+    public Map<String,Double> calculateTotals(ArrayList<CartItem> cartItems){
         Map<String,Double> totalsMap = new HashMap<>();
 
         double subTotal = 0.0;
@@ -68,7 +69,7 @@ public class OrderService {
         return totalsMap;
     }
 
-    public void persistOrderToDB(Vector<CartItem> cartItems,Long invoiceId, Address billingAddress,Address shippingAddress,boolean sameShipAndBillAddr){
+    public void persistOrderToDB(ArrayList<CartItem> cartItems,Long invoiceId, Address billingAddress,Address shippingAddress,boolean sameShipAndBillAddr){
 
         System.out.println("OrderId "+invoiceId);
 
@@ -108,7 +109,7 @@ public class OrderService {
     }
 
 
-    public void generateInvoice(Vector<CartItem> cartItems,Long invoiceId, Address billingAddress,Address shippingAddress, Map<String, Double> totalsMap) throws IOException{
+    public void generateInvoice(ArrayList<CartItem> cartItems,Long invoiceId, Address billingAddress,Address shippingAddress, Map<String, Double> totalsMap) throws IOException{
   
         String cssPath = Paths.get("src/main/resources/static/invoice.css").toAbsolutePath().toString();
         String invoiceHTML = InvoiceHTMLGenerator.generateInvoiceHTML(cartItems,invoiceId,cssPath,totalsMap,billingAddress,shippingAddress);
@@ -119,7 +120,7 @@ public class OrderService {
     }
 
 
-    public void processOrder(Vector<CartItem> cartItems,Long invoiceId, HashMap<String,String> formData) throws IOException{
+    public void processOrder(ArrayList<CartItem> cartItems,Long invoiceId, HashMap<String,String> formData) throws IOException{
 
         ExecutorService threadPool = Executors.newFixedThreadPool(2);
 

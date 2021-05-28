@@ -1,6 +1,7 @@
 package com.deepak.marketplace.util;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.Map;
 import java.util.Vector;
@@ -73,7 +74,7 @@ public class InvoiceHTMLGenerator {
 	}
 	
 	
-	private static String generateInvoiceGoodsTableHTML(Vector<CartItem> cartItems) {
+	private static String generateInvoiceGoodsTableHTML(ArrayList<CartItem> cartItems) {
 
 		String goodsHTMLString = "<table class=\"invoice_goods_table\">\r\n" + "      <!-- invoice items header -->\r\n"
 				+ "      <tr>\r\n" + "        <th width=\"50%\" class=\"invoiceitems_header\">Product</th>\r\n"
@@ -131,7 +132,7 @@ public class InvoiceHTMLGenerator {
 
 	
 //	TODO:need to change later
-	public static String generateInvoiceHTML(Vector<CartItem> cartItems,Long invoiceId, String cssPath,Map<String,Double> totalsMap, Address billingAddress, Address shippingAddress) {
+	public static String generateInvoiceHTML(ArrayList<CartItem> cartItems,Long invoiceId, String cssPath,Map<String,Double> totalsMap, Address billingAddress, Address shippingAddress) {
 		;
 		String invoiceHeadingHTML = String.format("<!DOCTYPE html>\r\n"
 				+ "<html>\r\n"
